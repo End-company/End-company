@@ -1,0 +1,58 @@
+@import url(./base.css);
+ .parttop{
+    width: 960px;
+    height: 630px;
+    background: #ebebeb;
+    margin: 0 auto;
+    padding: 30px 50px;
+    
+    .topone{
+        width: 30%;
+        height: 320px;
+        float: left;
+        text-align: center;
+        background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
+        background-size: cover;
+        margin-right: 5%;
+     }
+    .toptwo{
+        width: 30%;
+        height: 320px;
+        float: left;
+        text-align: center;
+        background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
+        background-size: cover;
+        margin-right: 5%;
+    } 
+    .topthree{
+        width: 30%;
+        height: 320px;
+        float: left;
+        background: green;
+        text-align: center;
+        position: relative;
+       .row{
+        width: 100px;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+       }
+       .col{
+        width: 10px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;  
+       }
+    }
+     
+}
