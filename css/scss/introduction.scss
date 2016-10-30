@@ -6,8 +6,9 @@
     margin-left:auto;
     margin-right:auto;
     margin-bottom:0;
-    background:blue;
+    background:#EBEBEB;
     position: relative;
+    z-index:50;
 }
 .resume{
     width: 320px;
@@ -35,7 +36,7 @@
     left:50px;
     top:120px;
    
-    background:pink;
+    background:#EFEFEF;
     
     
 }
@@ -49,13 +50,29 @@
     display: block;
     width: 270px;
     height: 320px;
-    
+    position:relative;
 }
 .shouji li a img{
     
     width: 270px;
     height: 320px;
     
+}
+#imgs1{
+    width:36px;
+    height:36px;
+    position:absolute;
+    left:-18px;
+    top:-18px;
+    z-index:500;
+}
+#imgs2{
+    width:36px;
+    height:36px;
+    position:absolute;
+    left:-18px;
+    top:-18px;
+    z-index:500;
 }
 .shouji li:nth-of-type(2){
     margin-left:25px;
@@ -64,12 +81,25 @@
     margin-left:25px;
 }
 .input1{
-    width: 140px;
+    width:140px;
     height: 40px;
-    background:red;
+    background:url(../imgs/jiejian/1.jpg);
+    background-size:140px 40px;
     text-align:center ;
-    border-radius: 35%;
+   
+    outline:none;
     margin:20px 65px;
+    }
+    #jpg2 a{
+    display:block;
+    width:140px;
+    height:40px;
+    margin:20px 65px;
+    }
+    #jpg2 img{
+    width:140px;
+    height:40px;
+
     }
 .jianli1{
     width: 960px;
@@ -79,4 +109,49 @@
     margin-right:auto;
     margin-bottom:0;
     background:pink;
+}
+.baocun{
+    position:absolute;
+    left:50%;
+    margin-left:-125px;
+    bottom:30px;
+}
+.diandian{
+    width:430px;
+    height:55px;
+    position:absolute;
+    left:100px;
+    bottom:-55px;
+    background:rgba(29,212,115,0.5);
+}
+.btn{
+    width:120px;
+    height:15px;
+    
+    margin-left:50%;
+    margin-top:20px;
+    position:relative;
+}
+.btn li{
+    width:15px;
+    height:15px;
+    box-sizing:border-box;
+    border:1px solid #fff;
+    background:#fff;
+    border-radius: 50%;
+    float:left;
+    margin-right:10px;
+    margin-left:5px;
+}
+.btn li:nth-of-type(1){
+    background:#f0c310;
+}
+.huangse{
+    width:305px;
+    height:105px;
+    background:url("../imgs/jiejian/9.png");
+    position:absolute;
+    left:530px;
+    bottom:-105px;
+    
 }
