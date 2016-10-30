@@ -102,3 +102,16 @@
 
 .pipei2 img:nth-of-type(2) {
   float: right; }
+
+.pipei3 {
+  width: 100%;
+  height: 219px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: url(../imgs/gongsiliebiao/p3bj.png);
+  border-bottom: 1px solid #10c6ee;
+  box-shadow: 0px -3px 5px #ccc; }
+  .pipei3 .tx {
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px; }
