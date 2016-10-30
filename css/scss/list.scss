@@ -18,8 +18,8 @@
     left:$left;
 }
 .banner{
-    @include k-g(100%,846px)
-    @include bg(url(../imgs/list/4.jpg))
+    @include k-g(100%,846px);
+    @include bg(url(../imgs/list/4.jpg));
     @include auto;
 }
 .zhezhao{
@@ -59,34 +59,35 @@
 }
 .banner2{
     @include k-g(1200px,636px);
-    @include bg(url(../imgs/list/2.jpg))
+    @include bg(url(../imgs/list/2.jpg));
     @include absolute(120px,80px)
 }
 .banner3{
     @include k-g(1200px,636px);
-   @include bg(url(../imgs/list/11.jpg))
+    @include bg(url(../imgs/list/11.jpg));
     @include absolute(120px,80px)
 }
 .banner4{
     @include k-g(340px,165px);
-    @include bg(url(../imgs/list/123.jpg))
+    @include bg(url(../imgs/list/123.jpg));
     @include absolute(320px,20px);
 }
 .banner6{
     @include k-g(70px,265px);
-    @include bg(url(../imgs/list/1.png))
+    @include bg(url(../imgs/list/1.png));
     position: absolute;
     top:300px;
     right:0px;
 }
 .banner5{
     @include k-g(1000px,auto);
-    @include left-right;
-    bottom:30;
+    position: absolute;
+    left:0;
+    bottom:20px;
 }
 /* banner*/
 #ss{
-   @include k-g(1000px,60px);
+    @include k-g(1200px,60px);
     @include auto;
 }
 #ss input{
@@ -98,7 +99,7 @@
 }
 #ss a{
    display: block;
-   @include k-g(10%,100%);
+   @include k-g(15%,100%);
     float:right;
     color:white;
     background:#40d1f1;
@@ -106,7 +107,141 @@
     text-align: center;
 }
 .diqu{
-   @include k-g(1000px,60px);
+   @include k-g(1200px,60px);
    @include auto; 
+   margin-top:50px;
 }
-
+.diqu1{
+    @include k-g(226px,30px);
+    float:left;
+    border:1px solid #eee;
+    margin-right:14px;
+    color:#333;
+    line-height: 30px;
+    font-size: 12px;
+}
+.sanjiao{
+    overflow: hidden;
+    right:0px;
+    bottom:0px;   
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #0180cf;
+    border-bottom: 5px solid #0180cf;
+    border-left: 5px solid #fff;
+}
+.sign{
+    @include k-g($inner-width,170px);
+    margin-top:50px;
+    margin: auto;
+    border:1px solid #eee;
+    border-bottom:none;
+    @include bg(url(../imgs/list/5.png));
+    background-position:25px 20px;
+}
+.signLeft{
+    @include k-g(599px,100%);
+    float:left;
+    border-right:1px dashed #eee;
+    height:100px;
+    margin-top:40px;
+    margin-bottom:40x;
+}
+.signLeft h4{
+    color:#333;
+    margin-top:20px;
+    margin-left:200px;
+}
+.signLeft h5{
+    color:#333;
+    margin-top:10px;
+    margin-left:200px;
+}
+.signLeft h5 span{
+    color:#f1cd3e;
+}
+.signLeft h6{
+    color:#333;
+    margin-top:10px;
+    margin-left:200px;
+}
+.signRight{
+    @include k-g(599px,100%);
+    float:left;
+}
+.signRight h4{
+    color:#333;
+    margin-top:50px;
+    margin-left:30px;
+}
+.signRight h5{
+    color:#333;
+    margin-top:10px;
+    margin-left:30px;
+}
+.signRight h6{
+    display: inline-block;
+    color:#333;
+    margin-top:10px;
+    margin-left:30px;
+    border:1px solid #eee;
+    float:left;
+}
+.leader{
+    @include k-g(148px,46px);
+    background: #40d1f1;
+    color:#fff;
+    font-size: 18px;
+    line-height:46px;
+    margin-left:400px;
+    margin-top:-30px;
+    text-align: center;
+    border-radius: 5%;
+    
+}
+.sign2{
+    background-position:25px -160px;
+}
+.sign3{
+    background-position:25px -336px;
+}
+.sign4{
+    background-position:25px -510px;
+}
+.sign5{
+    background-position:25px -510px;
+    border-bottom:1px solid #eee;
+}
+.page{
+    @include k-g($inner-width,177px);
+    margin:0 auto;
+    border:1px solid #eee;
+    border-top:none;
+}
+.page .page1{
+    @include k-g(800px,100px);
+    margin-left:400px;
+}
+.page a{
+    color:#666;
+    font-size:14px;
+    float: left;
+    display: block;
+    margin-top:50px;
+    margin-left:10px;
+}
+.page .pages{
+    @include k-g(20px,20px);
+    line-height: 20px;
+    text-align: center;
+    border:1px solid #eee;
+}
+.page .page1 .span{
+    display: inline-block;
+    vertical-align: middle;
+    @include k-g(30px,20px);
+    border:1px solid #eee;
+    margin:0 5px;
+}

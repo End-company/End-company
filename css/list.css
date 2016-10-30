@@ -131,14 +131,12 @@ input, select {
   height: auto;
   position: absolute;
   left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 30;
+  bottom: 20px;
 }
 
 /* banner*/
 #ss {
-  width: 1000px;
+  width: 1200px;
   height: 60px;
   margin: 0 auto;
   position: relative;
@@ -155,7 +153,7 @@ input, select {
 
 #ss a {
   display: block;
-  width: 10%;
+  width: 15%;
   height: 100%;
   float: right;
   color: white;
@@ -165,8 +163,175 @@ input, select {
 }
 
 .diqu {
-  width: 1000px;
+  width: 1200px;
   height: 60px;
   margin: 0 auto;
   position: relative;
+  margin-top: 50px;
+}
+
+.diqu1 {
+  width: 226px;
+  height: 30px;
+  float: left;
+  border: 1px solid #eee;
+  margin-right: 14px;
+  color: #333;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.sanjiao {
+  overflow: hidden;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #0180cf;
+  border-bottom: 5px solid #0180cf;
+  border-left: 5px solid #fff;
+}
+
+.sign {
+  width: 1200px;
+  height: 170px;
+  margin-top: 50px;
+  margin: auto;
+  border: 1px solid #eee;
+  border-bottom: none;
+  background: url(../imgs/list/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25px 20px;
+}
+
+.signLeft {
+  width: 599px;
+  height: 100%;
+  float: left;
+  border-right: 1px dashed #eee;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40x;
+}
+
+.signLeft h4 {
+  color: #333;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.signLeft h5 {
+  color: #333;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.signLeft h5 span {
+  color: #f1cd3e;
+}
+
+.signLeft h6 {
+  color: #333;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.signRight {
+  width: 599px;
+  height: 100%;
+  float: left;
+}
+
+.signRight h4 {
+  color: #333;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.signRight h5 {
+  color: #333;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.signRight h6 {
+  display: inline-block;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 1px solid #eee;
+  float: left;
+}
+
+.leader {
+  width: 148px;
+  height: 46px;
+  background: #40d1f1;
+  color: #fff;
+  font-size: 18px;
+  line-height: 46px;
+  margin-left: 400px;
+  margin-top: -30px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.sign2 {
+  background-position: 25px -160px;
+}
+
+.sign3 {
+  background-position: 25px -336px;
+}
+
+.sign4 {
+  background-position: 25px -510px;
+}
+
+.sign5 {
+  background-position: 25px -510px;
+  border-bottom: 1px solid #eee;
+}
+
+.page {
+  width: 1200px;
+  height: 177px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.page .page1 {
+  width: 800px;
+  height: 100px;
+  margin-left: 400px;
+}
+
+.page a {
+  color: #666;
+  font-size: 14px;
+  float: left;
+  display: block;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.page .pages {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.page .page1 .span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  border: 1px solid #eee;
+  margin: 0 5px;
 }
