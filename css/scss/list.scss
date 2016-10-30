@@ -119,8 +119,7 @@
     margin:0 10px;
 }
 .yuan{
-    width:50px;
-    height:180px;
+    @include k-g(50px,180px);
     text-align: right;
     padding-top:10px;
     padding-left:10px;
@@ -180,5 +179,41 @@
 .diqu{
    @include k-g(1000px,60px);
    @include auto; 
+}
+
+/* qiyetuijian*/
+#tuijian{
+    
+    @include k-g(1200px,40px);
+    margin:30px auto;
+    padding:0 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+#tuijian img{
+    vertical-align: middle;
+    margin-right:15px;
+}
+#xz{
+    margin-top:10px;
+    float: right;
+}
+.tuijian{
+    width:1200px;
+    height:300px;
+    @include auto;
+}
+.tuijian_1{
+    width:25%;
+    height:100%;
+    float: left;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+.tuijian_1:nth-of-type(2) img{
+    margin-top:6px;
+}
+.tuijian_1:nth-of-type(4){
+    padding:0;
 }
 
