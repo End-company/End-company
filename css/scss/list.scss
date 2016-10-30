@@ -57,17 +57,17 @@
     background:$page-yellow;
     @include absolute(120px,80px)
 }
-.banner2{
+.bannertu.banner2{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/2.jpg))
     @include absolute(120px,80px)
 }
-.banner3{
+.bannertu.banner3{
     @include k-g(1200px,636px);
    @include bg(url(../imgs/list/11.jpg))
     @include absolute(120px,80px)
 }
-.banner4{
+.bannertu.banner4{
     @include k-g(340px,165px);
     @include bg(url(../imgs/list/123.jpg))
     @include absolute(320px,20px);
@@ -80,9 +80,80 @@
     right:0px;
 }
 .banner5{
-    @include k-g(1000px,auto);
-    @include left-right;
-    bottom:30;
+    @include k-g(1000px,250px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:0 auto;
+    @include bg(url(../imgs/list/111.png));
+    background-size: 100%;
+   
+}
+.banner5_2{
+    @include k-g(100%,125px);
+}
+.banner5_2 .banner5_1{
+    @include k-g(33.33%,125px); 
+    padding-top:30px;
+    padding-left:20px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.banner5_3{
+    @include k-g(50%,60px);
+    float: left;
+    color:#666;  
+}
+.banner5_3 span:nth-of-type(1){
+    color:#40D1F1;
+}
+.banner6_1{
+     @include k-g(100%,50px);
+     padding:0 30px;
+     box-sizing: border-box;
+}
+.banner6_1 img{
+    vertical-align: middle;
+    margin:0 10px;
+}
+.yuan{
+    @include k-g(50px,180px);
+    text-align: right;
+    padding-top:10px;
+    padding-left:10px;
+    box-sizing: border-box;
+   
+}
+.yuan1{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background:white;
+    margin-top:15px;
+    border:2px solid white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.yuan span{
+    color:white;
+    margin-left:25px;
+}
+.yuan2{
+    @include k-g(70px,65px);
+    @include bg(url(../imgs/list/tuo.png));
+   margin-top:10px;
+}
+.yuan2 span{
+    display: block;
+    @include k-g(25px,60px);
+    float: left;
+    color:$page-yellow;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
 }
 /* banner*/
 #ss{
@@ -108,5 +179,41 @@
 .diqu{
    @include k-g(1000px,60px);
    @include auto; 
+}
+
+/* qiyetuijian*/
+#tuijian{
+    
+    @include k-g(1200px,40px);
+    margin:30px auto;
+    padding:0 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+#tuijian img{
+    vertical-align: middle;
+    margin-right:15px;
+}
+#xz{
+    margin-top:10px;
+    float: right;
+}
+.tuijian{
+    width:1200px;
+    height:300px;
+    @include auto;
+}
+.tuijian_1{
+    width:25%;
+    height:100%;
+    float: left;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+.tuijian_1:nth-of-type(2) img{
+    margin-top:6px;
+}
+.tuijian_1:nth-of-type(4){
+    padding:0;
 }
 

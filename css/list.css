@@ -82,7 +82,7 @@ input, select {
   left: 80px;
 }
 
-.banner2 {
+.bannertu.banner2 {
   width: 1200px;
   height: 636px;
   background: url(../imgs/list/2.jpg);
@@ -93,7 +93,7 @@ input, select {
   left: 80px;
 }
 
-.banner3 {
+.bannertu.banner3 {
   width: 1200px;
   height: 636px;
   background: url(../imgs/list/11.jpg);
@@ -104,7 +104,7 @@ input, select {
   left: 80px;
 }
 
-.banner4 {
+.bannertu.banner4 {
   width: 340px;
   height: 165px;
   background: url(../imgs/list/123.jpg);
@@ -128,12 +128,99 @@ input, select {
 
 .banner5 {
   width: 1000px;
-  height: auto;
+  height: 250px;
   position: absolute;
+  bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
-  bottom: 30;
+  margin: 0 auto;
+  background: url(../imgs/list/111.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner5_2 {
+  width: 100%;
+  height: 125px;
+}
+
+.banner5_2 .banner5_1 {
+  width: 33.33%;
+  height: 125px;
+  padding-top: 30px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.banner5_3 {
+  width: 50%;
+  height: 60px;
+  float: left;
+  color: #666;
+}
+
+.banner5_3 span:nth-of-type(1) {
+  color: #40D1F1;
+}
+
+.banner6_1 {
+  width: 100%;
+  height: 50px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.banner6_1 img {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.yuan {
+  width: 50px;
+  height: 180px;
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.yuan1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 15px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.yuan span {
+  color: white;
+  margin-left: 25px;
+}
+
+.yuan2 {
+  width: 70px;
+  height: 65px;
+  background: url(../imgs/list/tuo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.yuan2 span {
+  display: block;
+  width: 25px;
+  height: 60px;
+  float: left;
+  color: #edd325;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* banner*/
@@ -169,4 +256,47 @@ input, select {
   height: 60px;
   margin: 0 auto;
   position: relative;
+}
+
+/* qiyetuijian*/
+#tuijian {
+  width: 1200px;
+  height: 40px;
+  margin: 30px auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+
+#tuijian img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+#xz {
+  margin-top: 10px;
+  float: right;
+}
+
+.tuijian {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tuijian_1 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.tuijian_1:nth-of-type(2) img {
+  margin-top: 6px;
+}
+
+.tuijian_1:nth-of-type(4) {
+  padding: 0;
 }
