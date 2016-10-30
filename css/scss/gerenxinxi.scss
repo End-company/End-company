@@ -1,0 +1,104 @@
+@import "base.scss";
+.box{
+	width:100%;
+	height:1040px;
+}
+.boxa{
+	width:$inner-width;
+	height:966px;
+	background:$page-green; 
+	margin:0 auto;
+	padding-top:74px;
+}
+.boxa .tupian{
+	width:1200px;
+	height:86px;
+	
+}
+.boxa .tupian div{
+	float:left;
+}
+.boxa .tupian .zi{
+	width:70px;
+	height:86px;
+	text-aline:center;
+	margin-right:60px;
+
+}
+.boxa .tupian .tu{
+	width:90px;
+	height:86px;
+}
+.input1{
+	width:1200px;
+	height:30px;
+	
+	margin-top:25px;
+}
+.zi1{
+	float:left;
+}
+.input1 input{
+	float:left;
+	margin-left:60px;
+	margin-right:50px;
+	height:30px;
+}
+.xingbie{
+	margin-left:50px;
+	margin-right:50px;
+}
+.nianlin{
+	margin-left:50px;
+	margin-right:50px;
+}
+.input2{
+	width:1200px;
+	height:75px;
+
+	margin-top:35px;
+}
+.zi2{
+	float:left;
+}
+.input2 input{
+	width:423px;
+	height:71px;
+	float:left;
+	margin-left:50px;
+}
+.input3{
+	width:1200px;
+	height:30px;
+	margin-top:75px;
+	
+}
+.input3 input{
+	margin-left:20px;
+	margin-right:20px;
+}
+.shenfen{
+    width:260px;
+	margin-left:20px;
+}
+.input4{
+	width:1200px;
+	height:30px;
+	
+	margin-top:30px;
+}
+.qiuzhi{
+width:120px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.input5{
+	width:$inner-width;
+	height:30px;
+
+	margin-top:30px;
+}
+.btn{
+	border-radius:12px;
+	background:#37bb97;
+}
