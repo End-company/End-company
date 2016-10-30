@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*去掉标签的默认样式*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑","宋体","sans-serif";
+  position: relative;
+  box-sizing: border-box;
+  list-style: none;
+  background: #fff; }
+
+a {
+  text-decoration: none; }
+
+input, select {
+  border: none; }
+
+.jianli {
+  width: 960px;
+  height: 630px;
+  margin-top: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  background: blue; }
+
+.jianli1 {
+  width: 960px;
+  height: 630px;
+  margin-top: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  background: pink; }
