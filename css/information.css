@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/list.css
 @charset "UTF-8";
 /*去掉标签的默认样式*/
 * {
@@ -7,6 +8,7 @@
   position: relative;
   box-sizing: border-box;
   list-style: none;
+  background: #fff;
 }
 
 a {
@@ -71,4 +73,8 @@ input, select {
   position: absolute;
   bottom: 0;
   left: 0;
+=======
+div {
+  width: 100px;
+>>>>>>> c4ce3e900287c5bd297749e558cade784e2da019:css/information.css
 }
