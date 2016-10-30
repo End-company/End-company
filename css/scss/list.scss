@@ -34,16 +34,23 @@
     opacity: 0.6;
 }
 .yellow1{
-    @include k-g(200px,50px);
-    background:#edd325;
-    @include absolute(270px,50px);
+    @include k-g(200px,200px);
+    background:$page-yellow;
+    @include absolute(300px,45px);
     opacity: 0.6;
 }
 .yellow2{
-    @include k-g(80px,80px);
-    background:#edd325;
+    @include k-g(50px,50px);
+    background:$page-yellow;
     @include absolute(270px,10px);
     opacity: 0.6;
+}
+.bai{
+   @include k-g(100%,200px); 
+   background:white;
+   position: absolute;
+   bottom: 0;
+   left: 0;
 }
 
 
