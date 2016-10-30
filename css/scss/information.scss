@@ -1,3 +1,33 @@
-div{
-    width: 100px;
+@import 'base.scss';
+
+$color:#f4f4f4;
+#infor-comment{
+    width: 100%;
+    height:894px;
+    background:$color;
+    .comment-con{
+        width: $inner-width;
+        height:670px;
+        @include left-right;
+        margin-top: 90px;
+        background: $color;
+        .comment-list{
+            width: 890px;
+            height:100%;
+            float: left;
+            background: $color;
+            .list-tit{
+                width: 870px;
+                height:46px;
+                position: relative;
+                padding-left:20px;
+                background: $color;
+                .imgB{
+                    position: absolute;
+                    height:0;
+                    left:0;
+                }
+            }
+        }
+    }
 }
