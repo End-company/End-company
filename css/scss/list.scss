@@ -80,9 +80,33 @@
     right:0px;
 }
 .banner5{
-    @include k-g(1000px,auto)
+    @include k-g(1000px,auto);
     @include left-right;
     bottom:30;
-   
+}
+/* banner*/
+#ss{
+   @include k-g(1000px,60px);
+    @include auto;
+}
+#ss input{
+    @include k-g(80%,100%);
+    border:1px solid #eee;
+    box-sizing: border-box;
+    color:#EBEBEB;
+    line-height: 60px;
+}
+#ss a{
+   display: block;
+   @include k-g(10%,100%);
+    float:right;
+    color:white;
+    background:#40d1f1;
+    line-height: 60px;
+    text-align: center;
+}
+.diqu{
+   @include k-g(1000px,60px);
+   @include auto; 
 }
 

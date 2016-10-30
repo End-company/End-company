@@ -135,3 +135,38 @@ input, select {
   margin: auto;
   bottom: 30;
 }
+
+/* banner*/
+#ss {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#ss input {
+  width: 80%;
+  height: 100%;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  color: #EBEBEB;
+  line-height: 60px;
+}
+
+#ss a {
+  display: block;
+  width: 10%;
+  height: 100%;
+  float: right;
+  color: white;
+  background: #40d1f1;
+  line-height: 60px;
+  text-align: center;
+}
+
+.diqu {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
