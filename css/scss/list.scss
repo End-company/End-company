@@ -67,4 +67,21 @@
    @include bg(url(../imgs/list/11.jpg))
     @include absolute(120px,80px)
 }
+.banner4{
+    @include k-g(340px,165px);
+    @include bg(url(../imgs/list/123.jpg))
+    @include absolute(320px,20px);
+}
+.banner6{
+    @include k-g(70px,265px);
+    @include bg(url(../imgs/list/1.png))
+    position: absolute;
+    top:300px;
+    right:0px;
+}
+.banner5{
+    @include k-g(1000px,auto)
+    @include left-right;
+    bottom:30;
+}
 

@@ -103,3 +103,35 @@ input, select {
   top: 120px;
   left: 80px;
 }
+
+.banner4 {
+  width: 340px;
+  height: 165px;
+  background: url(../imgs/list/123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 320px;
+  left: 20px;
+}
+
+.banner6 {
+  width: 70px;
+  height: 265px;
+  background: url(../imgs/list/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 300px;
+  right: 0px;
+}
+
+.banner5 {
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 30;
+}
