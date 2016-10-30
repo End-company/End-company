@@ -12,3 +12,36 @@ a{
 	 text-decoration:none;
 	}
 input,select{border:none;}
+//内宽
+$inner-width:1200px;
+$page-green:#45645a;
+$page-black:#575757;
+$page-gray:#abaaa;
+$page-blue:#62aef5;
+$page-yellow:#ff6a91;
+$page-pink:#ff6a91;
+$page-turquoise:#3ce694;
+$page-DeepGreen:#45645a;
+$page-red:#ec0000;
+//图片路径
+$img-path:'../imgs/';
+@mixin top-bottom{
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+@mixin left-right{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+}
+@mixin center{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
