@@ -1,3 +1,27 @@
-div{
-    width: 100px;
+@import 'base.scss';
+@mixin k-g($width,$height){
+    width:$width;
+    height:$height;
+}
+
+/*内容部分*/
+#main{
+    @include k-g(auto,1663px);
+    background: #F4F4F4;
+    margin: 0;
+}
+.main-inner{
+    @include k-g($inner-width,1663px);
+    
+    @include left-right;
+    
+    margin-top: 46px;
+    .yishi{
+        @include k-g(748px,312px);
+        background: #FFFFFF;
+        border-radius: 8px;
+        border-top: 4px solid #10c8f0;
+        box-shadow: 0 0 3px #e1e1e1;
+        float: left;
+    }
 }
