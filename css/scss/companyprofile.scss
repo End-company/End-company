@@ -1,11 +1,33 @@
-@import url(./base.css);
+@import 'base.scss';
+.body{
+    width: 100%;
+}
+.inner{
+    width: $inner-width;
+    @include left-right;
+}
+/*parttop start*/
  .parttop{
-    width: 960px;
+    width: $inner-width;
     height: 630px;
     background: #ebebeb;
     margin: 0 auto;
     padding: 30px 50px;
-    
+    margin-top: 100px;
+    background: #edecec;
+    z-index: 99;
+    .picbox{
+        width: 317px;
+        height: 189px;
+         @include left-right;
+         top: -110px;
+         z-index: 999;
+         
+         img{
+           box-shadow: 0 0 10px #888;  
+         }
+         
+    }
     .topone{
         width: 30%;
         height: 320px;
@@ -14,6 +36,29 @@
         background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
         background-size: cover;
         margin-right: 5%;
+        margin-top: 80px;
+        .circle{
+            @include yuan(33px,33px);
+            box-shadow: 0 0 2px $shadow;
+            left: -15px;
+            top: -15px;
+            .col{
+                width: 90%;
+                height: 3px;
+                background: #fff;
+                @include center;
+                border-radius: 10%;
+                transform:rotate(45deg);
+            }
+            .row{
+                width: 90%;
+                height: 3px;
+                background: #fff;
+                @include center;
+                border-radius: 10%;
+                transform:rotate(135deg);
+            }
+        }
      }
     .toptwo{
         width: 30%;
@@ -23,14 +68,38 @@
         background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
         background-size: cover;
         margin-right: 5%;
+        margin-top: 80px;
+        .circle{
+            @include yuan(33px,33px);
+            box-shadow: 0 0 2px $shadow;
+            left: -15px;
+            top: -15px;
+            .col{
+                width: 90%;
+                height: 3px;
+                background: #fff;
+                @include center;
+                border-radius: 10%;
+                transform:rotate(45deg);
+            }
+            .row{
+                width: 90%;
+                height: 3px;
+                background: #fff;
+                @include center;
+                border-radius: 10%;
+                transform:rotate(135deg);
+            }
+        }
     } 
     .topthree{
         width: 30%;
         height: 320px;
         float: left;
-        background: green;
+        background: $blue;
         text-align: center;
         position: relative;
+        margin-top: 80px;
        .row{
         width: 100px;
         height: 10px;
@@ -51,8 +120,343 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        background: #fff;  
+        background: #fff; 
+        
        }
+    }   
+
+.ul{
+    height: 100px;
+    width: 100%;
+    float: left;
+    li:nth-of-type(1){
+        width: 30%;
+        height: 100px;
+        float: left;
+        margin-right: 5%;
+        
+    .btn{
+        background: url(../../../imgs/companyprofile/bg.png);
+        height: 50px;
+        width: 150px;
+        @include center;
+        outline: none;
+        color: #fff;
+        text-align: center;
     }
-     
+
+    }
+    
+        li:nth-of-type(2){
+        width: 30%;
+        height: 100px;
+        float: left;
+        margin-right: 5%;
+    .btn{
+        background: url(../../../imgs/companyprofile/bg.png);
+        height: 50px;
+        outline: none;
+        color: #fff;
+        text-align: center;
+        width: 150px;
+        @include center;
+    }
+
+    }
+    
+        li:nth-of-type(3){
+        width: 30%;
+        height: 100px;
+        float: left;
+    .btn{
+        background: url(../../../imgs/companyprofile/bg.png);
+        height: 50px;
+        outline: none;
+        color: #fff;
+        text-align: center;
+        width: 150px;
+        @include center;
+    }
+
+    }
+
 }
+    .bottom{
+        width: 100%;
+        float: left;
+        height: 100px;
+        .submit{
+        height: 80px;
+        width: 300px;
+        @include center;
+        float: left;
+    }
+    
+    }
+
+}
+.list{
+    width: 80%;
+    height: 75px;
+    @include left-right;
+    bottom: -60px;
+    background: green;
+    opacity: 0.6;
+    z-index: 0;
+    ul{
+        width: 100px;
+        height: 17px;
+        @include left-right;
+        bottom: 20px;
+        li{
+            @include yuan(17px,17px);
+            background: #fff;
+            float: left;
+            margin-right: 8px;
+        }
+    }
+    
+
+}
+    .pageselect{
+        width:305px;
+        height: 108px;
+        position: absolute;
+        right: 40px;
+        z-index: 20;
+        background: url(../../../imgs/companyprofile/select.png);
+        span:nth-of-type(1){
+            position: absolute;
+            left: 20px;
+            bottom: 30px;
+            color: $yellow;
+        }
+        span:nth-of-type(2){
+            position: absolute;
+            left: 40px;
+            bottom: 30px;
+            color: $yellow;
+        }
+        span:nth-of-type(3){
+            position: absolute;
+            left: 85px;
+            bottom: 20px;
+            color: #fff;
+            font-size: 30px;
+        }
+        span:nth-of-type(4){
+            position: absolute;
+            left: 125px;
+            bottom: 25px;
+            color: #fff;
+            font-size: 18px;
+        }        
+    }
+    
+/*parttop end*/
+
+/*partbottom start*/
+ .partbottom{
+    width: $inner-width;
+    height: 630px;
+    background: #ebebeb;
+    margin: 0 auto;
+    margin-top: 300px;
+    padding: 30px 50px;
+    background: #edecec;
+    z-index: 99;
+    .picbox{
+        width: 317px;
+        height: 189px;
+         @include left-right;
+         top: -110px;
+         z-index: 999;
+         
+         img{
+           box-shadow: 0 0 10px #888;  
+         }
+         
+    }
+    .topone{
+        width: 30%;
+        height: 320px;
+        float: left;
+        text-align: center;
+        background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
+        background-size: cover;
+        margin-right: 5%;
+        margin-top: 80px;
+     }
+    .toptwo{
+        width: 30%;
+        height: 320px;
+        float: left;
+        text-align: center;
+        background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
+        background-size: cover;
+        margin-right: 5%;
+        margin-top: 80px;
+    } 
+    .topthree{
+        width: 30%;
+        height: 320px;
+        float: left;
+        background: $blue;
+        text-align: center;
+        position: relative;
+        margin-top: 80px;
+       .row{
+        width: 100px;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+       }
+       .col{
+        width: 10px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff; 
+        
+       }
+    }   
+
+.ul{
+    height: 100px;
+    width: 100%;
+    float: left;
+    li:nth-of-type(1){
+        width: 30%;
+        height: 100px;
+        float: left;
+        margin-right: 5%;
+        
+    .btn{
+        background: url(../../../imgs/companyprofile/bg.png);
+        height: 50px;
+        width: 150px;
+        @include center;
+        outline: none;
+        color: #fff;
+        text-align: center;
+    }
+
+    }
+    
+        li:nth-of-type(2){
+        width: 30%;
+        height: 100px;
+        float: left;
+        margin-right: 5%;
+    .btn{
+        background: url(../../../imgs/companyprofile/bg.png);
+        height: 50px;
+        outline: none;
+        color: #fff;
+        text-align: center;
+        width: 150px;
+        @include center;
+    }
+
+    }
+    
+        li:nth-of-type(3){
+        width: 30%;
+        height: 100px;
+        float: left;
+    .btn{
+        background: url(../../../imgs/companyprofile/bg.png);
+        height: 50px;
+        outline: none;
+        color: #fff;
+        text-align: center;
+        width: 150px;
+        @include center;
+    }
+
+    }
+
+}
+    .bottom{
+        width: 100%;
+        float: left;
+        height: 100px;
+        .submit{
+        height: 80px;
+        width: 300px;
+        @include center;
+        float: left;
+    }
+    
+    }
+
+}
+.list{
+    width: 80%;
+    height: 75px;
+    @include left-right;
+    bottom: -60px;
+    background: green;
+    opacity: 0.6;
+    z-index: 0;
+    ul{
+        width: 100px;
+        height: 17px;
+        @include left-right;
+        bottom: 20px;
+        li{
+            @include yuan(17px,17px);
+            background: #fff;
+            float: left;
+            margin-right: 8px;
+        }
+    }
+    
+
+}
+    .pageselect{
+        width:305px;
+        height: 108px;
+        position: absolute;
+        right: 40px;
+        z-index: 20;
+        background: url(../../../imgs/companyprofile/select.png);
+        span:nth-of-type(1){
+            position: absolute;
+            left: 20px;
+            bottom: 30px;
+            color: $yellow;
+        }
+        span:nth-of-type(2){
+            position: absolute;
+            left: 40px;
+            bottom: 30px;
+            color: $yellow;
+        }
+        span:nth-of-type(3){
+            position: absolute;
+            left: 85px;
+            bottom: 20px;
+            color: #fff;
+            font-size: 30px;
+        }
+        span:nth-of-type(4){
+            position: absolute;
+            left: 125px;
+            bottom: 25px;
+            color: #fff;
+            font-size: 18px;
+        }        
+    }
+    
+
+/*partbottom end*/
