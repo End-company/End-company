@@ -6,7 +6,7 @@
 	position:relative;
 	box-sizing:border-box;
 	list-style:none;
-	
+
 }
 a{
 	 text-decoration:none;
@@ -14,12 +14,21 @@ a{
 input,select{border:none;}
 //内宽
 $inner-width:1200px;
+<<<<<<< HEAD
 $green:#6cce24;
 $black:#575757;
 $page-gray:#abaaa;
 $blue:#10c8f0;
 $yellow:#ff6a91;
 $pink:#ff6a91;
+=======
+$page-green:#45645a;
+$page-black:#575757;
+$page-gray:#abaaaa;
+$page-blue:#62aef5;
+$page-yellow:#edd325;
+$page-pink:#ff6a91;
+>>>>>>> 9f8e2502c0034de84e1e3ed485deb18d56a244cb
 $page-turquoise:#3ce694;
 $DeepGreen:#45645a;
 $-red:#ec0000;

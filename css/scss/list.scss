@@ -1,0 +1,112 @@
+@import 'base.scss';
+@mixin k-g($width,$height){
+    width:$width;
+    height:$height;
+}
+@mixin auto{
+    margin:0 auto;
+    position: relative;
+}
+@mixin bg($bg){
+    background: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin absolute($top,$left){
+    position: absolute;
+    top:$top;
+    left:$left;
+}
+.banner{
+    @include k-g(100%,846px)
+    @include bg(url(../imgs/list/4.jpg))
+    @include auto;
+}
+.zhezhao{
+   @include k-g(100%,100%);
+   background:#2b5f6f;
+   opacity: 0.9; 
+}
+.lv{
+    @include k-g(225px,250px);
+    background:#177867;
+    @include absolute(270px,910px);
+    opacity: 0.6;
+}
+.yellow1{
+    @include k-g(200px,200px);
+    background:$page-yellow;
+    @include absolute(300px,45px);
+    opacity: 0.6;
+}
+.yellow2{
+    @include k-g(50px,50px);
+    background:$page-yellow;
+    @include absolute(270px,10px);
+    opacity: 0.6;
+}
+.bai{
+   @include k-g(100%,200px); 
+   background:white;
+   position: absolute;
+   bottom: 0;
+   left: 0;  
+}
+.banner1{
+    @include k-g(1200px,636px);
+    background:$page-yellow;
+    @include absolute(120px,80px)
+}
+.banner2{
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/2.jpg))
+    @include absolute(120px,80px)
+}
+.banner3{
+    @include k-g(1200px,636px);
+   @include bg(url(../imgs/list/11.jpg))
+    @include absolute(120px,80px)
+}
+.banner4{
+    @include k-g(340px,165px);
+    @include bg(url(../imgs/list/123.jpg))
+    @include absolute(320px,20px);
+}
+.banner6{
+    @include k-g(70px,265px);
+    @include bg(url(../imgs/list/1.png))
+    position: absolute;
+    top:300px;
+    right:0px;
+}
+.banner5{
+    @include k-g(1000px,auto);
+    @include left-right;
+    bottom:30;
+}
+/* banner*/
+#ss{
+   @include k-g(1000px,60px);
+    @include auto;
+}
+#ss input{
+    @include k-g(80%,100%);
+    border:1px solid #eee;
+    box-sizing: border-box;
+    color:#EBEBEB;
+    line-height: 60px;
+}
+#ss a{
+   display: block;
+   @include k-g(10%,100%);
+    float:right;
+    color:white;
+    background:#40d1f1;
+    line-height: 60px;
+    text-align: center;
+}
+.diqu{
+   @include k-g(1000px,60px);
+   @include auto; 
+}
+
