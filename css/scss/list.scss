@@ -80,12 +80,10 @@
     right:0px;
 }
 .banner5{
-<<<<<<< HEAD
     @include k-g(1000px,auto);
     position: absolute;
     left:0;
     bottom:20px;
-=======
     @include k-g(1000px,250px);
     position: absolute;
     bottom: 0;
@@ -160,7 +158,6 @@
     line-height: 40px;
     text-align: center;
     cursor: pointer;
->>>>>>> efd8696256663de7b851c7184aa94a2907f26600
 }
 /* banner*/
 #ss{
@@ -322,8 +319,7 @@
     border:1px solid #eee;
     margin:0 5px;
 }
-<<<<<<< HEAD
-=======
+
 
 /* qiyetuijian*/
 #tuijian{
@@ -361,4 +357,3 @@
     padding:0;
 }
 
->>>>>>> efd8696256663de7b851c7184aa94a2907f26600

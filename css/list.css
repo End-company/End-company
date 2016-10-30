@@ -1,45 +1,474 @@
-/*
-Error: Invalid CSS after "...-g(1000px,auto)": expected "{", was ";"
-        on line 84 of C:\Users\Administrator\Desktop\company\End-company\css\scss\list.scss
+@charset "UTF-8";
+/*å»æ‰æ ‡ç­¾çš„é»˜è®¤æ ·å¼*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "å¾®è½¯é›…é»‘","å®‹ä½“","sans-serif";
+  position: relative;
+  box-sizing: border-box;
+  list-style: none;
+}
 
-79:     top:300px;
-80:     right:0px;
-81: }
-82: .banner5{
-83: <<<<<<< HEAD
-84:     @include k-g(1000px,auto);
-85:     position: absolute;
-86:     left:0;
-87:     bottom:20px;
-88: =======
-89:     @include k-g(1000px,250px);
+a {
+  text-decoration: none;
+}
 
-Backtrace:
-C:\Users\Administrator\Desktop\company\End-company\css\scss\list.scss:84
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:404:in `run'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-D:/Èí¼ş/koloa/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-D:/Èí¼ş/koloa/Koala/bin/sass:18:in `load'
-D:/Èí¼ş/koloa/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...-g(1000px,auto)\": expected \"{\", was \";\"\A         on line 84 of C:\Users\Administrator\Desktop\company\End-company\css\scss\list.scss\A \A 79:     top:300px;\A 80:     right:0px;\A 81: }\A 82: .banner5{\A 83: <<<<<<< HEAD\A 84:     @include k-g(1000px,auto);\A 85:     position: absolute;\A 86:     left:0;\A 87:     bottom:20px;\A 88: =======\A 89:     @include k-g(1000px,250px);"; }
+input, select {
+  border: none;
+}
+
+.banner {
+  width: 100%;
+  height: 846px;
+  background: url(../imgs/list/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: #2b5f6f;
+  opacity: 0.9;
+}
+
+.lv {
+  width: 225px;
+  height: 250px;
+  background: #177867;
+  position: absolute;
+  top: 270px;
+  left: 910px;
+  opacity: 0.6;
+}
+
+.yellow1 {
+  width: 200px;
+  height: 200px;
+  background: #edd325;
+  position: absolute;
+  top: 300px;
+  left: 45px;
+  opacity: 0.6;
+}
+
+.yellow2 {
+  width: 50px;
+  height: 50px;
+  background: #edd325;
+  position: absolute;
+  top: 270px;
+  left: 10px;
+  opacity: 0.6;
+}
+
+.bai {
+  width: 100%;
+  height: 200px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.banner1 {
+  width: 1200px;
+  height: 636px;
+  background: #edd325;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+}
+
+.bannertu.banner2 {
+  width: 1200px;
+  height: 636px;
+  background: url(../imgs/list/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+}
+
+.bannertu.banner3 {
+  width: 1200px;
+  height: 636px;
+  background: url(../imgs/list/11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+}
+
+.bannertu.banner4 {
+  width: 340px;
+  height: 165px;
+  background: url(../imgs/list/123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 320px;
+  left: 20px;
+}
+
+.banner6 {
+  width: 70px;
+  height: 265px;
+  background: url(../imgs/list/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 300px;
+  right: 0px;
+}
+
+.banner5 {
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 1000px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: url(../imgs/list/111.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.banner5_2 {
+  width: 100%;
+  height: 125px;
+}
+
+.banner5_2 .banner5_1 {
+  width: 33.33%;
+  height: 125px;
+  padding-top: 30px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.banner5_3 {
+  width: 50%;
+  height: 60px;
+  float: left;
+  color: #666;
+}
+
+.banner5_3 span:nth-of-type(1) {
+  color: #40D1F1;
+}
+
+.banner6_1 {
+  width: 100%;
+  height: 50px;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.banner6_1 img {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.yuan {
+  width: 50px;
+  height: 180px;
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.yuan1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 15px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.yuan span {
+  color: white;
+  margin-left: 25px;
+}
+
+.yuan2 {
+  width: 70px;
+  height: 65px;
+  background: url(../imgs/list/tuo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.yuan2 span {
+  display: block;
+  width: 25px;
+  height: 60px;
+  float: left;
+  color: #edd325;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* banner*/
+#ss {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#ss input {
+  width: 80%;
+  height: 100%;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  color: #EBEBEB;
+  line-height: 60px;
+}
+
+#ss a {
+  display: block;
+  width: 15%;
+  height: 100%;
+  float: right;
+  color: white;
+  background: #40d1f1;
+  line-height: 60px;
+  text-align: center;
+}
+
+.diqu {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+
+.diqu1 {
+  width: 226px;
+  height: 30px;
+  float: left;
+  border: 1px solid #eee;
+  margin-right: 14px;
+  color: #333;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.sanjiao {
+  overflow: hidden;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #0180cf;
+  border-bottom: 5px solid #0180cf;
+  border-left: 5px solid #fff;
+}
+
+.sign {
+  width: 1200px;
+  height: 170px;
+  margin-top: 50px;
+  margin: auto;
+  border: 1px solid #eee;
+  border-bottom: none;
+  background: url(../imgs/list/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25px 20px;
+}
+
+.signLeft {
+  width: 599px;
+  height: 100%;
+  float: left;
+  border-right: 1px dashed #eee;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40x;
+}
+
+.signLeft h4 {
+  color: #333;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.signLeft h5 {
+  color: #333;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.signLeft h5 span {
+  color: #f1cd3e;
+}
+
+.signLeft h6 {
+  color: #333;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.signRight {
+  width: 599px;
+  height: 100%;
+  float: left;
+}
+
+.signRight h4 {
+  color: #333;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.signRight h5 {
+  color: #333;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.signRight h6 {
+  display: inline-block;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 1px solid #eee;
+  float: left;
+}
+
+.leader {
+  width: 148px;
+  height: 46px;
+  background: #40d1f1;
+  color: #fff;
+  font-size: 18px;
+  line-height: 46px;
+  margin-left: 400px;
+  margin-top: -30px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.sign2 {
+  background-position: 25px -160px;
+}
+
+.sign3 {
+  background-position: 25px -336px;
+}
+
+.sign4 {
+  background-position: 25px -510px;
+}
+
+.sign5 {
+  background-position: 25px -510px;
+  border-bottom: 1px solid #eee;
+}
+
+.page {
+  width: 1200px;
+  height: 177px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.page .page1 {
+  width: 800px;
+  height: 100px;
+  margin-left: 400px;
+}
+
+.page a {
+  color: #666;
+  font-size: 14px;
+  float: left;
+  display: block;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.page .pages {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.page .page1 .span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  border: 1px solid #eee;
+  margin: 0 5px;
+}
+
+/* qiyetuijian*/
+#tuijian {
+  width: 1200px;
+  height: 40px;
+  margin: 30px auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+
+#tuijian img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+#xz {
+  margin-top: 10px;
+  float: right;
+}
+
+.tuijian {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tuijian_1 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.tuijian_1:nth-of-type(2) img {
+  margin-top: 6px;
+}
+
+.tuijian_1:nth-of-type(4) {
+  padding: 0;
+}
