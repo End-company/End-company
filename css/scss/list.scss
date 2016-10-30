@@ -1,4 +1,49 @@
-div{
-    width: 100px;
-    height:100px;
+@import 'base.scss';
+@mixin k-g($width,$height){
+    width:$width;
+    height:$height;
 }
+@mixin auto{
+    margin:0 auto;
+    position: relative;
+}
+@mixin bg($bg){
+    background: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin absolute($top,$left){
+    position: absolute;
+    top:$top;
+    left:$left;
+}
+.banner{
+    @include k-g(100%,846px)
+    @include bg(url(../imgs/list/4.jpg))
+    @include auto;
+}
+.zhezhao{
+   @include k-g(100%,100%);
+   background:#2b5f6f;
+   opacity: 0.8; 
+}
+.lv{
+    @include k-g(225px,250px);
+    background:#177867;
+    @include absolute(270px,910px);
+    opacity: 0.6;
+}
+.yellow1{
+    @include k-g(200px,50px);
+    background:#edd325;
+    @include absolute(270px,50px);
+    opacity: 0.6;
+}
+.yellow2{
+    @include k-g(80px,80px);
+    background:#edd325;
+    @include absolute(270px,10px);
+    opacity: 0.6;
+}
+
+
