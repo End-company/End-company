@@ -28,7 +28,27 @@
 .yk{
     width: 230px;
     height: 230px;
+    border-radius: 50%;
     border: 1px solid #ccc;
+    margin-top: -15px;
+}
+.ppz{
+    width: 190px;
+    height: 190px;
+    background: #c7e8fd;
+    border-radius: 50%;
+    border-left: 25px solid #43d3f2;
+    border-bottom: 25px solid #37a4c4;
+    border-top: 25px solid #43d3f2;
+    border-right: 25px solid #37a4c4;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.ppz span{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 55px;
 }
 .yb{
     height: 200px;
