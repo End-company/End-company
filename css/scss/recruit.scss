@@ -1,0 +1,22 @@
+@import 'base.scss';
+html,body{
+    background-color: #F4F4F4;
+}
+#header{
+    width: 100%;
+    height: 156px;
+}
+@mixin zpcontent{
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+#zp-content{  
+    height: 1420px;
+    @include zpcontent; 
+}
+.zp-content{
+    @include zpcontent; 
+}
