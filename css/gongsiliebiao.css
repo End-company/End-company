@@ -21,6 +21,11 @@
   float: left;
   background: #0f2847; }
 
+.yk {
+  width: 230px;
+  height: 230px;
+  border: 1px solid #ccc; }
+
 .yb {
   height: 200px;
   position: absolute;
