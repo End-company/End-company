@@ -14,15 +14,16 @@ a{
 input,select{border:none;}
 //内宽
 $inner-width:1200px;
-$page-green:#45645a;
-$page-black:#575757;
+$green:#6cce24;
+$black:#575757;
 $page-gray:#abaaa;
-$page-blue:#62aef5;
-$page-yellow:#ff6a91;
-$page-pink:#ff6a91;
+$blue:#10c8f0;
+$yellow:#ff6a91;
+$pink:#ff6a91;
 $page-turquoise:#3ce694;
-$page-DeepGreen:#45645a;
-$page-red:#ec0000;
+$DeepGreen:#45645a;
+$-red:#ec0000;
+$shadow:#cbc8c9;
 //图片路径
 $img-path:'../imgs/';
 @mixin top-bottom{
@@ -44,4 +45,11 @@ $img-path:'../imgs/';
 	top:0;
 	bottom:0;
 	margin:auto;
+}
+@mixin yuan($w,$h){
+    width: $w;
+    height: $h;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background:$green;
 }
