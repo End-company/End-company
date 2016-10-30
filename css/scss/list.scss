@@ -80,9 +80,51 @@
     right:0px;
 }
 .banner5{
-    @include k-g(1000px,auto);
-    @include left-right;
-    bottom:30;
+    @include k-g(1000px,250px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:0 auto;
+    @include bg(url(../imgs/list/111.png));
+    background-size: 100%;
+}
+.yuan{
+    width:50px;
+    height:180px;
+    text-align: right;
+    padding-top:10px;
+    padding-left:10px;
+    box-sizing: border-box;
+   
+}
+.yuan1{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background:white;
+    margin-top:15px;
+    border:2px solid white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.yuan span{
+    color:white;
+    margin-left:25px;
+}
+.yuan2{
+    @include k-g(70px,65px);
+    @include bg(url(../imgs/list/tuo.png));
+   margin-top:10px;
+}
+.yuan2 a{
+    display: block;
+    @include k-g(25px,60px);
+    float: left;
+    color:$page-yellow;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
 }
 /* banner*/
 #ss{
