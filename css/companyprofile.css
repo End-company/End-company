@@ -19,10 +19,19 @@ input, select {
 
 .inner {
   width: 1200px;
-  position: absolute;
   left: 0;
   right: 0;
-  margin: auto; }
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 99; }
+
+.zhao {
+  width: 100%;
+  height: auto;
+  background: #000;
+  opacity: 0.8;
+  z-index: 50; }
 
 /*parttop start*/
 .parttop {
@@ -50,7 +59,7 @@ input, select {
     height: 320px;
     float: left;
     text-align: center;
-    background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
+    background: url(../imgs/companyprofile/phone.jpg) center no-repeat;
     background-size: cover;
     margin-right: 5%;
     margin-top: 80px; }
@@ -67,24 +76,24 @@ input, select {
         width: 90%;
         height: 3px;
         background: #fff;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
+        position: absolute;
         border-radius: 10%;
         transform: rotate(45deg); }
       .parttop .topone .circle .row {
         width: 90%;
         height: 3px;
         background: #fff;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
+        position: absolute;
         border-radius: 10%;
         transform: rotate(135deg); }
   .parttop .toptwo {
@@ -92,7 +101,7 @@ input, select {
     height: 320px;
     float: left;
     text-align: center;
-    background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
+    background: url(../imgs/companyprofile/peple.jpeg) center no-repeat;
     background-size: cover;
     margin-right: 5%;
     margin-top: 80px; }
@@ -109,26 +118,26 @@ input, select {
         width: 90%;
         height: 3px;
         background: #fff;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
         border-radius: 10%;
-        transform: rotate(45deg); }
+        transform: rotate(45deg);
+        position: absolute; }
       .parttop .toptwo .circle .row {
         width: 90%;
         height: 3px;
         background: #fff;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
         border-radius: 10%;
-        transform: rotate(135deg); }
+        transform: rotate(135deg);
+        position: absolute; }
   .parttop .topthree {
     width: 30%;
     height: 320px;
@@ -167,10 +176,9 @@ input, select {
       float: left;
       margin-right: 5%; }
       .parttop .ul li:nth-of-type(1) .btn {
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         width: 150px;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
@@ -178,42 +186,43 @@ input, select {
         margin: auto;
         outline: none;
         color: #fff;
-        text-align: center; }
+        text-align: center;
+        position: absolute; }
     .parttop .ul li:nth-of-type(2) {
       width: 30%;
       height: 100px;
       float: left;
       margin-right: 5%; }
       .parttop .ul li:nth-of-type(2) .btn {
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
-        margin: auto; }
+        margin: auto;
+        position: absolute; }
     .parttop .ul li:nth-of-type(3) {
       width: 30%;
       height: 100px;
       float: left; }
       .parttop .ul li:nth-of-type(3) .btn {
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
-        margin: auto; }
+        margin: auto;
+        position: absolute; }
   .parttop .bottom {
     width: 100%;
     float: left;
@@ -221,13 +230,13 @@ input, select {
     .parttop .bottom .submit {
       height: 80px;
       width: 300px;
-      position: absolute;
       left: 0;
       right: 0;
       top: 0;
       bottom: 0;
       margin: auto;
-      float: left; }
+      float: left;
+      position: absolute; }
 
 .list {
   width: 80%;
@@ -236,10 +245,8 @@ input, select {
   left: 0;
   right: 0;
   margin: auto;
-  bottom: -60px;
-  background: green;
-  opacity: 0.6;
-  z-index: 0; }
+  background: #2d6748;
+  z-index: 60; }
   .list ul {
     width: 100px;
     height: 17px;
@@ -254,27 +261,32 @@ input, select {
       border-radius: 50%;
       border: 3px solid #fff;
       background: #6cce24;
-      background: #fff;
+      border: 3px solid #fff;
       float: left;
+      background: #fff;
       margin-right: 8px; }
+    .list ul li:nth-of-type(1) {
+      background: #f0c310; }
 
 .pageselect {
   width: 305px;
   height: 108px;
   position: absolute;
   right: 40px;
-  z-index: 20;
-  background: url(../../../imgs/companyprofile/select.png); }
+  z-index: 70;
+  background: url(../imgs/companyprofile/select.png); }
   .pageselect span:nth-of-type(1) {
     position: absolute;
     left: 20px;
     bottom: 30px;
-    color: #ff6a91; }
+    color: #f0c310;
+    cursor: pointer; }
   .pageselect span:nth-of-type(2) {
     position: absolute;
     left: 40px;
     bottom: 30px;
-    color: #ff6a91; }
+    color: #f0c310;
+    cursor: pointer; }
   .pageselect span:nth-of-type(3) {
     position: absolute;
     left: 85px;
@@ -307,15 +319,14 @@ input, select {
     right: 0;
     margin: auto;
     top: -110px;
-    z-index: 999; }
-    .partbottom .picbox img {
-      box-shadow: 0 0 10px #888; }
+    z-index: 999;
+    background: url(../imgs/companyprofile/icon.png) center no-repeat; }
   .partbottom .topone {
     width: 30%;
     height: 320px;
     float: left;
     text-align: center;
-    background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
+    background: url(../imgs/companyprofile/phone.jpg) center no-repeat;
     background-size: cover;
     margin-right: 5%;
     margin-top: 80px; }
@@ -324,10 +335,19 @@ input, select {
     height: 320px;
     float: left;
     text-align: center;
-    background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
+    background: url(../imgs/companyprofile/peple.jpeg) center no-repeat;
     background-size: cover;
     margin-right: 5%;
     margin-top: 80px; }
+    .partbottom .toptwo .leaf {
+      width: 152px;
+      height: 173px;
+      position: absolute;
+      top: -35px;
+      right: -80px;
+      background: url(../imgs/companyprofile/leaf.png) center no-repeat;
+      z-index: 99;
+      opacity: 0.8; }
   .partbottom .topthree {
     width: 30%;
     height: 320px;
@@ -335,7 +355,8 @@ input, select {
     background: #10c8f0;
     text-align: center;
     position: relative;
-    margin-top: 80px; }
+    margin-top: 80px;
+    z-index: 100; }
     .partbottom .topthree .row {
       width: 100px;
       height: 10px;
@@ -366,10 +387,9 @@ input, select {
       float: left;
       margin-right: 5%; }
       .partbottom .ul li:nth-of-type(1) .btn {
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         width: 150px;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
@@ -377,42 +397,43 @@ input, select {
         margin: auto;
         outline: none;
         color: #fff;
-        text-align: center; }
+        text-align: center;
+        position: absolute; }
     .partbottom .ul li:nth-of-type(2) {
       width: 30%;
       height: 100px;
       float: left;
       margin-right: 5%; }
       .partbottom .ul li:nth-of-type(2) .btn {
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
-        margin: auto; }
+        margin: auto;
+        position: absolute; }
     .partbottom .ul li:nth-of-type(3) {
       width: 30%;
       height: 100px;
       float: left; }
       .partbottom .ul li:nth-of-type(3) .btn {
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
-        position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
-        margin: auto; }
+        margin: auto;
+        position: absolute; }
   .partbottom .bottom {
     width: 100%;
     float: left;
@@ -420,26 +441,24 @@ input, select {
     .partbottom .bottom .submit {
       height: 80px;
       width: 300px;
-      position: absolute;
       left: 0;
       right: 0;
       top: 0;
       bottom: 0;
       margin: auto;
-      float: left; }
+      float: left;
+      position: absolute; }
 
-.list {
+.listone {
   width: 80%;
   height: 75px;
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
-  bottom: -60px;
-  background: green;
-  opacity: 0.6;
-  z-index: 0; }
-  .list ul {
+  background: #2d6748;
+  z-index: 60; }
+  .listone ul {
     width: 100px;
     height: 17px;
     position: absolute;
@@ -447,7 +466,7 @@ input, select {
     right: 0;
     margin: auto;
     bottom: 20px; }
-    .list ul li {
+    .listone ul li {
       width: 17px;
       height: 17px;
       border-radius: 50%;
@@ -455,25 +474,30 @@ input, select {
       background: #6cce24;
       background: #fff;
       float: left;
-      margin-right: 8px; }
+      margin-right: 8px;
+      border: 3px solid #fff; }
+    .listone ul li:nth-of-type(1) {
+      background: #f0c310; }
 
 .pageselect {
   width: 305px;
   height: 108px;
   position: absolute;
   right: 40px;
-  z-index: 20;
-  background: url(../../../imgs/companyprofile/select.png); }
+  z-index: 70;
+  background: url(../imgs/companyprofile/select.png); }
   .pageselect span:nth-of-type(1) {
     position: absolute;
     left: 20px;
     bottom: 30px;
-    color: #ff6a91; }
+    color: #f0c310;
+    cursor: pointer; }
   .pageselect span:nth-of-type(2) {
     position: absolute;
     left: 40px;
     bottom: 30px;
-    color: #ff6a91; }
+    color: #f0c310;
+    cursor: pointer; }
   .pageselect span:nth-of-type(3) {
     position: absolute;
     left: 85px;

@@ -4,7 +4,16 @@
 }
 .inner{
     width: $inner-width;
-    @include left-right;
+//  overflow: hidden;
+    @include center;
+    z-index: 99;
+}
+.zhao{
+    width: 100%;
+    height: auto;
+    background: #000;
+    opacity: 0.8;
+    z-index: 50;
 }
 /*parttop start*/
  .parttop{
@@ -33,7 +42,7 @@
         height: 320px;
         float: left;
         text-align: center;
-        background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
+        background: url(../imgs/companyprofile/phone.jpg) center no-repeat;
         background-size: cover;
         margin-right: 5%;
         margin-top: 80px;
@@ -47,6 +56,7 @@
                 height: 3px;
                 background: #fff;
                 @include center;
+                position: absolute;
                 border-radius: 10%;
                 transform:rotate(45deg);
             }
@@ -55,6 +65,7 @@
                 height: 3px;
                 background: #fff;
                 @include center;
+                position: absolute;
                 border-radius: 10%;
                 transform:rotate(135deg);
             }
@@ -65,7 +76,7 @@
         height: 320px;
         float: left;
         text-align: center;
-        background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
+        background: url(../imgs/companyprofile/peple.jpeg) center no-repeat;
         background-size: cover;
         margin-right: 5%;
         margin-top: 80px;
@@ -81,6 +92,7 @@
                 @include center;
                 border-radius: 10%;
                 transform:rotate(45deg);
+                position: absolute;
             }
             .row{
                 width: 90%;
@@ -89,6 +101,7 @@
                 @include center;
                 border-radius: 10%;
                 transform:rotate(135deg);
+                position: absolute;
             }
         }
     } 
@@ -136,13 +149,14 @@
         margin-right: 5%;
         
     .btn{
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         width: 150px;
         @include center;
         outline: none;
         color: #fff;
         text-align: center;
+        position: absolute;
     }
 
     }
@@ -153,13 +167,14 @@
         float: left;
         margin-right: 5%;
     .btn{
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
         @include center;
+        position: absolute;
     }
 
     }
@@ -169,13 +184,14 @@
         height: 100px;
         float: left;
     .btn{
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
         @include center;
+        position: absolute;
     }
 
     }
@@ -190,6 +206,7 @@
         width: 300px;
         @include center;
         float: left;
+        position: absolute;
     }
     
     }
@@ -199,10 +216,8 @@
     width: 80%;
     height: 75px;
     @include left-right;
-    bottom: -60px;
-    background: green;
-    opacity: 0.6;
-    z-index: 0;
+    background: #2d6748;
+    z-index: 60;
     ul{
         width: 100px;
         height: 17px;
@@ -210,9 +225,13 @@
         bottom: 20px;
         li{
             @include yuan(17px,17px);
-            background: #fff;
+            border: 3px solid #fff;          
             float: left;
+            background: #fff;
             margin-right: 8px;
+        }
+        li:nth-of-type(1){
+            background: $yellow;
         }
     }
     
@@ -223,19 +242,21 @@
         height: 108px;
         position: absolute;
         right: 40px;
-        z-index: 20;
-        background: url(../../../imgs/companyprofile/select.png);
+        z-index: 70;
+        background: url(../imgs/companyprofile/select.png);
         span:nth-of-type(1){
             position: absolute;
             left: 20px;
             bottom: 30px;
-            color: $yellow;
+            color: #f0c310;
+            cursor: pointer;
         }
         span:nth-of-type(2){
             position: absolute;
             left: 40px;
             bottom: 30px;
-            color: $yellow;
+            color: #f0c310;
+            cursor: pointer;
         }
         span:nth-of-type(3){
             position: absolute;
@@ -271,10 +292,8 @@
          @include left-right;
          top: -110px;
          z-index: 999;
-         
-         img{
-           box-shadow: 0 0 10px #888;  
-         }
+         background: url(../imgs/companyprofile/icon.png) center no-repeat;
+
          
     }
     .topone{
@@ -282,7 +301,7 @@
         height: 320px;
         float: left;
         text-align: center;
-        background: url(../../../imgs/companyprofile/phone.jpg) center no-repeat;
+        background: url(../imgs/companyprofile/phone.jpg) center no-repeat;
         background-size: cover;
         margin-right: 5%;
         margin-top: 80px;
@@ -292,10 +311,20 @@
         height: 320px;
         float: left;
         text-align: center;
-        background: url(../../../imgs/companyprofile/peple.jpeg) center no-repeat;
+        background: url(../imgs/companyprofile/peple.jpeg) center no-repeat;
         background-size: cover;
         margin-right: 5%;
         margin-top: 80px;
+        .leaf{
+            width: 152px;
+            height: 173px;
+            position: absolute;
+            top: -35px;
+            right: -80px;
+            background: url(../imgs/companyprofile/leaf.png)center no-repeat;
+            z-index: 99;
+            opacity: 0.8;
+        }
     } 
     .topthree{
         width: 30%;
@@ -305,6 +334,7 @@
         text-align: center;
         position: relative;
         margin-top: 80px;
+        z-index: 100;
        .row{
         width: 100px;
         height: 10px;
@@ -341,13 +371,14 @@
         margin-right: 5%;
         
     .btn{
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         width: 150px;
         @include center;
         outline: none;
         color: #fff;
         text-align: center;
+        position: absolute;
     }
 
     }
@@ -358,13 +389,14 @@
         float: left;
         margin-right: 5%;
     .btn{
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
         @include center;
+        position: absolute;
     }
 
     }
@@ -374,13 +406,14 @@
         height: 100px;
         float: left;
     .btn{
-        background: url(../../../imgs/companyprofile/bg.png);
+        background: url(../imgs/companyprofile/bg.png);
         height: 50px;
         outline: none;
         color: #fff;
         text-align: center;
         width: 150px;
         @include center;
+        position: absolute;
     }
 
     }
@@ -395,19 +428,18 @@
         width: 300px;
         @include center;
         float: left;
+        position: absolute;
     }
     
     }
 
 }
-.list{
+.listone{
     width: 80%;
     height: 75px;
     @include left-right;
-    bottom: -60px;
-    background: green;
-    opacity: 0.6;
-    z-index: 0;
+    background: #2d6748;
+    z-index: 60;
     ul{
         width: 100px;
         height: 17px;
@@ -418,6 +450,10 @@
             background: #fff;
             float: left;
             margin-right: 8px;
+            border: 3px solid #fff;
+        }
+        li:nth-of-type(1){
+            background: $yellow;
         }
     }
     
@@ -428,19 +464,21 @@
         height: 108px;
         position: absolute;
         right: 40px;
-        z-index: 20;
-        background: url(../../../imgs/companyprofile/select.png);
+        z-index: 70;
+        background: url(../imgs/companyprofile/select.png);
         span:nth-of-type(1){
             position: absolute;
             left: 20px;
             bottom: 30px;
-            color: $yellow;
+            color: #f0c310;
+            cursor: pointer;
         }
         span:nth-of-type(2){
             position: absolute;
             left: 40px;
             bottom: 30px;
-            color: $yellow;
+            color: #f0c310;
+            cursor: pointer;
         }
         span:nth-of-type(3){
             position: absolute;

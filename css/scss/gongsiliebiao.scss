@@ -58,8 +58,8 @@ input{
 .banner1{
     @include k-g(1200px,600px);
     background:$page-yellow;
-    @include absolute(120px,75px)
-}
+    @include absolute(120px,75px);
+    }
 .bannertu.banner2{
     @include k-g(1200px,600px);
     @include bg(url(../imgs/list/2.jpg))
@@ -481,4 +481,12 @@ input{
     float: left;
     margin-left: 5px;
     margin-top: -15px;
+}
+.ydh{
+    width: 38px;
+    height: 980px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
 }

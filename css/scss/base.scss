@@ -6,7 +6,6 @@
 	position:relative;
 	box-sizing:border-box;
 	list-style:none;
-
 }
 a{
 	 text-decoration:none;
@@ -18,7 +17,7 @@ $green:#6cce24;
 $black:#575757;
 $page-gray:#abaaa;
 $blue:#10c8f0;
-$yellow:#ff6a91;
+$yellow:#f0c310;
 $pink:#ff6a91;
 $page-green:#45645a;
 $page-black:#575757;
@@ -45,17 +44,20 @@ $img-path:'../imgs/';
 	margin:auto;
 }
 @mixin center{
-	position:absolute;
 	left:0;
 	right:0;
 	top:0;
 	bottom:0;
 	margin:auto;
 }
+
+img{
+    border: none;
 @mixin yuan($w,$h){
     width: $w;
     height: $h;
     border-radius: 50%;
     border: 3px solid #fff;
     background:$green;
+}
 }
