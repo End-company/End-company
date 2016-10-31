@@ -6,16 +6,16 @@
   font-family: "微软雅黑","宋体","sans-serif";
   position: relative;
   box-sizing: border-box;
-  list-style: none;
-}
+  list-style: none; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 input, select {
-  border: none;
-}
+  border: none; }
+
+img {
+  border: none; }
 
 .banner {
   width: 100%;
@@ -24,15 +24,13 @@ input, select {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
-  position: relative;
-}
+  position: relative; }
 
 .zhezhao {
   width: 100%;
   height: 100%;
   background: #2b5f6f;
-  opacity: 0.9;
-}
+  opacity: 0.9; }
 
 .lv {
   width: 225px;
@@ -41,8 +39,7 @@ input, select {
   position: absolute;
   top: 270px;
   left: 910px;
-  opacity: 0.6;
-}
+  opacity: 0.6; }
 
 .yellow1 {
   width: 200px;
@@ -51,8 +48,7 @@ input, select {
   position: absolute;
   top: 300px;
   left: 45px;
-  opacity: 0.6;
-}
+  opacity: 0.6; }
 
 .yellow2 {
   width: 50px;
@@ -61,8 +57,7 @@ input, select {
   position: absolute;
   top: 270px;
   left: 10px;
-  opacity: 0.6;
-}
+  opacity: 0.6; }
 
 .bai {
   width: 100%;
@@ -70,8 +65,7 @@ input, select {
   background: white;
   position: absolute;
   bottom: 0;
-  left: 0;
-}
+  left: 0; }
 
 .banner1 {
   width: 1200px;
@@ -79,8 +73,7 @@ input, select {
   background: #edd325;
   position: absolute;
   top: 120px;
-  left: 80px;
-}
+  left: 80px; }
 
 .bannertu.banner2 {
   width: 1200px;
@@ -90,8 +83,7 @@ input, select {
   background-repeat: no-repeat;
   position: absolute;
   top: 120px;
-  left: 80px;
-}
+  left: 80px; }
 
 .bannertu.banner3 {
   width: 1200px;
@@ -101,8 +93,7 @@ input, select {
   background-repeat: no-repeat;
   position: absolute;
   top: 120px;
-  left: 80px;
-}
+  left: 80px; }
 
 .bannertu.banner4 {
   width: 340px;
@@ -112,8 +103,7 @@ input, select {
   background-repeat: no-repeat;
   position: absolute;
   top: 320px;
-  left: 20px;
-}
+  left: 20px; }
 
 .banner6 {
   width: 70px;
@@ -123,8 +113,7 @@ input, select {
   background-repeat: no-repeat;
   position: absolute;
   top: 300px;
-  right: 0px;
-}
+  right: 0px; }
 
 .banner5 {
   width: 1000px;
@@ -142,13 +131,11 @@ input, select {
   background: url(../imgs/list/111.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
-}
+  background-size: 100%; }
 
 .banner5_2 {
   width: 100%;
-  height: 125px;
-}
+  height: 125px; }
 
 .banner5_2 .banner5_1 {
   width: 33.33%;
@@ -156,31 +143,26 @@ input, select {
   padding-top: 30px;
   padding-left: 20px;
   box-sizing: border-box;
-  float: left;
-}
+  float: left; }
 
 .banner5_3 {
   width: 50%;
   height: 60px;
   float: left;
-  color: #666;
-}
+  color: #666; }
 
 .banner5_3 span:nth-of-type(1) {
-  color: #40D1F1;
-}
+  color: #40D1F1; }
 
 .banner6_1 {
   width: 100%;
   height: 50px;
   padding: 0 30px;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .banner6_1 img {
   vertical-align: middle;
-  margin: 0 10px;
-}
+  margin: 0 10px; }
 
 .yuan {
   width: 50px;
@@ -188,8 +170,7 @@ input, select {
   text-align: right;
   padding-top: 10px;
   padding-left: 10px;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .yuan1 {
   width: 25px;
@@ -199,13 +180,11 @@ input, select {
   margin-top: 15px;
   border: 2px solid white;
   box-sizing: border-box;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .yuan span {
   color: white;
-  margin-left: 25px;
-}
+  margin-left: 25px; }
 
 .yuan2 {
   width: 70px;
@@ -213,8 +192,7 @@ input, select {
   background: url(../imgs/list/tuo.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .yuan2 span {
   display: block;
@@ -225,16 +203,14 @@ input, select {
   font-size: 30px;
   line-height: 40px;
   text-align: center;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 /* banner*/
 #ss {
   width: 1200px;
   height: 60px;
   margin: 0 auto;
-  position: relative;
-}
+  position: relative; }
 
 #ss input {
   width: 80%;
@@ -242,8 +218,7 @@ input, select {
   border: 1px solid #eee;
   box-sizing: border-box;
   color: #EBEBEB;
-  line-height: 60px;
-}
+  line-height: 60px; }
 
 #ss a {
   display: block;
@@ -253,16 +228,14 @@ input, select {
   color: white;
   background: #40d1f1;
   line-height: 60px;
-  text-align: center;
-}
+  text-align: center; }
 
 .diqu {
   width: 1200px;
   height: 60px;
   margin: 0 auto;
   position: relative;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .diqu1 {
   width: 226px;
@@ -272,8 +245,7 @@ input, select {
   margin-right: 14px;
   color: #333;
   line-height: 30px;
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .sanjiao {
   overflow: hidden;
@@ -285,8 +257,7 @@ input, select {
   border-top: 5px solid #fff;
   border-right: 5px solid #0180cf;
   border-bottom: 5px solid #0180cf;
-  border-left: 5px solid #fff;
-}
+  border-left: 5px solid #fff; }
 
 .sign {
   width: 1200px;
@@ -297,8 +268,7 @@ input, select {
   background: url(../imgs/list/5.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 25px 20px;
-}
+  background-position: 25px 20px; }
 
 .signLeft {
   width: 599px;
@@ -307,48 +277,40 @@ input, select {
   border-right: 1px dashed #eee;
   height: 100px;
   margin-top: 40px;
-  margin-bottom: 40x;
-}
+  margin-bottom: 40x; }
 
 .signLeft h4 {
   color: #333;
   margin-top: 20px;
-  margin-left: 200px;
-}
+  margin-left: 200px; }
 
 .signLeft h5 {
   color: #333;
   margin-top: 10px;
-  margin-left: 200px;
-}
+  margin-left: 200px; }
 
 .signLeft h5 span {
-  color: #f1cd3e;
-}
+  color: #f1cd3e; }
 
 .signLeft h6 {
   color: #333;
   margin-top: 10px;
-  margin-left: 200px;
-}
+  margin-left: 200px; }
 
 .signRight {
   width: 599px;
   height: 100%;
-  float: left;
-}
+  float: left; }
 
 .signRight h4 {
   color: #333;
   margin-top: 50px;
-  margin-left: 30px;
-}
+  margin-left: 30px; }
 
 .signRight h5 {
   color: #333;
   margin-top: 10px;
-  margin-left: 30px;
-}
+  margin-left: 30px; }
 
 .signRight h6 {
   display: inline-block;
@@ -356,8 +318,7 @@ input, select {
   margin-top: 10px;
   margin-left: 30px;
   border: 1px solid #eee;
-  float: left;
-}
+  float: left; }
 
 .leader {
   width: 148px;
@@ -369,39 +330,32 @@ input, select {
   margin-left: 400px;
   margin-top: -30px;
   text-align: center;
-  border-radius: 5%;
-}
+  border-radius: 5%; }
 
 .sign2 {
-  background-position: 25px -160px;
-}
+  background-position: 25px -160px; }
 
 .sign3 {
-  background-position: 25px -336px;
-}
+  background-position: 25px -336px; }
 
 .sign4 {
-  background-position: 25px -510px;
-}
+  background-position: 25px -510px; }
 
 .sign5 {
   background-position: 25px -510px;
-  border-bottom: 1px solid #eee;
-}
+  border-bottom: 1px solid #eee; }
 
 .page {
   width: 1200px;
   height: 177px;
   margin: 0 auto;
   border: 1px solid #eee;
-  border-top: none;
-}
+  border-top: none; }
 
 .page .page1 {
   width: 800px;
   height: 100px;
-  margin-left: 400px;
-}
+  margin-left: 400px; }
 
 .page a {
   color: #666;
@@ -409,16 +363,14 @@ input, select {
   float: left;
   display: block;
   margin-top: 50px;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 .page .pages {
   width: 20px;
   height: 20px;
   line-height: 20px;
   text-align: center;
-  border: 1px solid #eee;
-}
+  border: 1px solid #eee; }
 
 .page .page1 .span {
   display: inline-block;
@@ -426,8 +378,7 @@ input, select {
   width: 30px;
   height: 20px;
   border: 1px solid #eee;
-  margin: 0 5px;
-}
+  margin: 0 5px; }
 
 /* qiyetuijian*/
 #tuijian {
@@ -436,38 +387,31 @@ input, select {
   margin: 30px auto;
   padding: 0 10px;
   box-sizing: border-box;
-  line-height: 40px;
-}
+  line-height: 40px; }
 
 #tuijian img {
   vertical-align: middle;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 #xz {
   margin-top: 10px;
-  float: right;
-}
+  float: right; }
 
 .tuijian {
   width: 1200px;
   height: 300px;
   margin: 0 auto;
-  position: relative;
-}
+  position: relative; }
 
 .tuijian_1 {
   width: 25%;
   height: 100%;
   float: left;
   padding-right: 10px;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .tuijian_1:nth-of-type(2) img {
-  margin-top: 6px;
-}
+  margin-top: 6px; }
 
 .tuijian_1:nth-of-type(4) {
-  padding: 0;
-}
+  padding: 0; }
