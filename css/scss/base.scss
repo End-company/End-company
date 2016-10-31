@@ -6,7 +6,6 @@
 	position:relative;
 	box-sizing:border-box;
 	list-style:none;
-
 }
 a{
 	 text-decoration:none;
@@ -51,10 +50,20 @@ $img-path:'../imgs/';
 	bottom:0;
 	margin:auto;
 }
+<<<<<<< HEAD
+=======
+
+img{
+    border: none;
+>>>>>>> 5b3bf856b90b8defc145cff7f64e49808f96b04e
 @mixin yuan($w,$h){
     width: $w;
     height: $h;
     border-radius: 50%;
     border: 3px solid #fff;
     background:$green;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 5b3bf856b90b8defc145cff7f64e49808f96b04e
 }

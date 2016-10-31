@@ -14,6 +14,9 @@ a {
 input, select {
   border: none; }
 
+img {
+  border: none; }
+
 .header1 {
   width: 100%;
   height: 100px;
@@ -49,7 +52,7 @@ input, select {
   width: 310px;
   height: 54px;
   border: none;
-  background-image: url(../imgs/zhaopin/ss_03.jpg);
+  background-image: url(../../imgs/zhaopin/ss_03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -70,7 +73,7 @@ input, select {
   height: 26px;
   border: none;
   width: 65px;
-  background-image: url(../imgs/zhaopin/btn_06.jpg);
+  background-image: url(../../imgs/zhaopin/btn_06.jpg);
   background-size: 80% auto;
   background-repeat: no-repeat;
   background-size: 65px 26px;
@@ -149,7 +152,7 @@ input, select {
 
 body {
   background: #e3e3e3;
-  background: url(../imgs/zhaopin/ban.jpg) no-repeat; }
+  background: url(../../imgs/zhaopin/ban.jpg) no-repeat; }
 
 .zp-topban {
   width: 1200px;
@@ -186,7 +189,7 @@ body {
   z-index: 20; }
 
 .zp-topban .zuo {
-  background: url(../imgs/zhaopin/zuo_03.jpg);
+  background: url(../../imgs/zhaopin/zuo_03.jpg);
   width: 11px;
   height: 11px;
   position: absolute;
@@ -194,7 +197,7 @@ body {
   left: 31px; }
 
 .zp-topban .you {
-  background: url(../imgs/zhaopin/zuo_05.jpg);
+  background: url(../../imgs/zhaopin/zuo_05.jpg);
   width: 11px;
   height: 11px;
   position: absolute;
@@ -221,7 +224,7 @@ body {
 .zp-topban_2 .max {
   width: 456px;
   height: 30px;
-  background: url(../imgs/zhaopin/xiao.jpg) no-repeat;
+  background: url(../../imgs/zhaopin/xiao.jpg) no-repeat;
   background-position: 0 5px; }
   .zp-topban_2 .max div {
     float: left;
@@ -304,7 +307,7 @@ body {
 .zp-topban_3 .max {
   width: 600px;
   height: 30px;
-  background: url(../imgs/zhaopin/1.jpg) no-repeat;
+  background: url(../../imgs/zhaopin/1.jpg) no-repeat;
   background-position: 0 5px; }
   .zp-topban_3 .max div {
     float: left;
@@ -403,6 +406,9 @@ a {
   text-decoration: none; }
 
 input, select {
+  border: none; }
+
+img {
   border: none; }
 
 html, body {
@@ -730,106 +736,18 @@ html, body {
 
 .f4 > a:nth-of-type(1) {
   background: #5ccc26;
-  background-image: url(../imgs/zhaopin/icon_03.jpg);
+  background-image: url(../../imgs/zhaopin/icon_03.jpg);
   background-position: center;
   background-repeat: no-repeat; }
 
 .f4 > a:nth-of-type(2) {
   background: #2a77f6;
-  background-image: url(../imgs/zhaopin/icon_05.jpg);
+  background-image: url(../../imgs/zhaopin/icon_05.jpg);
   background-position: center;
   background-repeat: no-repeat; }
 
 .f4 > a:nth-of-type(3) {
   background: #f59421;
-  background-image: url(../imgs/zhaopin/icon_08.jpg);
+  background-image: url(../../imgs/zhaopin/icon_08.jpg);
   background-position: center;
   background-repeat: no-repeat; }
-.infor-fix {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 66px;
-  height: 987px;
-  background: #898a8b;
-  z-index: 999;
-}
-
-.infor-fix .tou {
-  width: 66px;
-  height: 120px;
-  background: #898a8b;
-  margin-top: 40px;
-}
-
-.infor-fix .tou .xing {
-  margin-top: 15px;
-}
-
-.infor-fix .tou .line {
-  margin-left: 8px;
-}
-
-.infor-fix .mid {
-  width: 56px;
-  height: auto;
-  margin-top: 40px;
-  padding-left: 10px;
-}
-
-.infor-fix .mid li {
-  width: 66px;
-  height: 50px;
-  margin-bottom: 15px;
-  cursor: pointer;
-}
-
-.infor-fix .mid li .main {
-  position: absolute;
-  left: -110px;
-  top: -10px;
-  display: none;
-}
-
-.infor-fix .mid li .two {
-  position: absolute;
-  left: 20px;
-  top: -5px;
-}
-
-.infor-fix .bot {
-  width: 56px;
-  height: auto;
-  margin-top: 10px;
-  padding-left: 10px;
-}
-
-.infor-fix .bot .esc {
-  margin-left: 6px;
-  margin-top: 10px;
-
-  margin-top: 90px;
-  background: #f4f4f4;
-}
-
-#infor-comment .comment-con .comment-list {
-  width: 890px;
-  height: 100%;
-  float: left;
-  background: #f4f4f4;
-}
-
-#infor-comment .comment-con .comment-list .list-tit {
-  width: 870px;
-  height: 46px;
-  position: relative;
-  padding-left: 20px;
-  background: #f4f4f4;
-}
-
-#infor-comment .comment-con .comment-list .list-tit .imgB {
-  position: absolute;
-  height: 0;
-  left: 0;
-
-}

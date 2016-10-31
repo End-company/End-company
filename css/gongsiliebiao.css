@@ -14,13 +14,16 @@ a {
 input, select {
   border: none; }
 
+img {
+  border: none; }
+
 input {
   outline: none; }
 
 .banner {
   width: 100%;
   height: 846px;
-  background: url(../imgs/list/4.jpg);
+  background: url("../imgs/list/4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -78,7 +81,7 @@ input {
 .bannertu.banner2 {
   width: 1200px;
   height: 600px;
-  background: url(../imgs/list/2.jpg);
+  background: url("../imgs/list/2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -88,7 +91,7 @@ input {
 .bannertu.banner3 {
   width: 1200px;
   height: 600px;
-  background: url(../imgs/list/11.jpg);
+  background: url("../imgs/list/11.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -98,7 +101,7 @@ input {
 .bannertu.banner4 {
   width: 340px;
   height: 165px;
-  background: url(../imgs/list/123.jpg);
+  background: url("../imgs/list/123.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -108,7 +111,7 @@ input {
 .banner6 {
   width: 70px;
   height: 265px;
-  background: url(../imgs/list/1.png);
+  background: url("../imgs/list/1.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -150,7 +153,7 @@ input {
 .yuan2 {
   width: 70px;
   height: 65px;
-  background: url(../imgs/list/tuo.png);
+  background: url("../imgs/list/tuo.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 10px; }
@@ -166,6 +169,136 @@ input {
   text-align: center;
   cursor: pointer; }
 
+/*头部*/
+.header {
+  width: 100%;
+  height: 100px;
+  background: #145880; }
+
+.headcon {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  /*background: #2D2D2D;*/
+  padding: 10px 10px;
+  box-sizing: border-box; }
+
+.h_left {
+  float: left;
+  height: 80px;
+  width: 100px; }
+
+.h_left img {
+  height: 80px; }
+
+.h_right {
+  float: right;
+  height: 80px;
+  width: 300px;
+  padding: 23px auto;
+  position: relative; }
+
+.h_right .search {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 310px;
+  height: 54px;
+  border: none;
+  background-image: url("../imgs/gongsiliebiao/ss_03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.h_right input#ss {
+  position: absolute;
+  right: 80px;
+  top: 13px;
+  width: 200px;
+  height: 28px;
+  border: none;
+  background: #2d6a8d; }
+
+.h_right input#btn {
+  position: absolute;
+  right: 8px;
+  top: 14px;
+  height: 26px;
+  border: none;
+  width: 65px;
+  background-image: url("../imgs/gongsiliebiao/btn_06.jpg");
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-size: 65px 26px;
+  cursor: pointer; }
+
+.h_right .point {
+  position: absolute;
+  left: 8px;
+  top: 22px;
+  height: 10px;
+  border-radius: 50%;
+  width: 10px;
+  background: #F2C119;
+  display: inline-block; }
+
+.h_mid {
+  margin-top: 16px;
+  height: 70px;
+  width: 700px;
+  display: inline-block;
+  position: relative; }
+
+.h_mid > div {
+  /*height: 70px;*/
+  display: inline-block;
+  box-sizing: border-box;
+  width: 24%;
+  height: auto;
+  border-right: 1px dashed #a7a5a5; }
+
+.h_mid span {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #a7a5a5;
+  margin-bottom: 5px; }
+
+.h_mid ul {
+  position: relative;
+  height: 2px;
+  width: 60px;
+  background: #707577;
+  margin: 5px 0; }
+
+.h_mid ul li {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 15%;
+  display: inline-block;
+  background: #f2c119; }
+
+.h_mid .h4 ul li {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.h_mid a {
+  font-size: 18px;
+  font-family: "方正准圆繁体";
+  color: #fff; }
+
+.h_mid > div.h1 {
+  height: 70px;
+  position: relative; }
+
+.h_mid > div.h1 img {
+  position: absolute;
+  bottom: 3px;
+  left: 3px; }
+
+/*头部*/
 /*快速匹配*/
 .pipei {
   width: 1200px;
@@ -502,3 +635,146 @@ input {
   float: left;
   margin-left: 5px;
   margin-top: -15px; }
+
+/*底部*/
+.footer {
+  width: 100%;
+  height: 200px;
+  background: #2d2d2d;
+  float: left;
+  display: block;
+  font-family: "微软雅黑";
+  margin-top: 80px; }
+
+.foot_box {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px 10px; }
+
+.f_left {
+  float: left;
+  height: 120px;
+  width: 160px; }
+
+.f_left img {
+  height: 120px; }
+
+.f_left2 {
+  float: left;
+  height: 120px;
+  width: 10px;
+  margin-right: 60px; }
+
+.f_left2 img {
+  height: 120px; }
+
+.f_right {
+  float: right;
+  height: 120px;
+  width: 120px;
+  background: #25b0ff; }
+
+.f_mid {
+  float: left;
+  height: 120px;
+  width: auto; }
+
+.f1 {
+  margin-bottom: 10px; }
+
+.f1 a {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  color: #a7a5a5;
+  margin-right: 15px; }
+
+.f2 {
+  width: 260px;
+  height: 3px;
+  border-bottom: 1px dashed #A7A5A5;
+  margin-bottom: 10px; }
+
+.f3 {
+  margin-bottom: 10px; }
+
+.f3 span {
+  font-size: 12px;
+  font-family: "微软雅黑","微软雅黑";
+  color: #a7a5a5; }
+
+.f4 {
+  height: 50px; }
+
+.f4 a {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px; }
+
+.f4 > a:nth-of-type(1) {
+  background: #5ccc26;
+  background-image: url("../imgs/gongsiliebiao/icon_03.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.f4 > a:nth-of-type(2) {
+  background: #2a77f6;
+  background-image: url("../imgs/gongsiliebiao/icon_05.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.f4 > a:nth-of-type(3) {
+  background: #f59421;
+  background-image: url("../imgs/gongsiliebiao/icon_08.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/*底部*/
+.infor-fix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 66px;
+  height: 987px;
+  background: #898a8b; }
+  .infor-fix .tou {
+    width: 66px;
+    height: 120px;
+    background: #898a8b;
+    margin-top: 40px; }
+    .infor-fix .tou .xing {
+      margin-top: 15px; }
+    .infor-fix .tou .line {
+      margin-left: 8px; }
+  .infor-fix .mid {
+    width: 56px;
+    height: auto;
+    margin-top: 40px;
+    padding-left: 10px; }
+    .infor-fix .mid li {
+      width: 66px;
+      height: 50px;
+      margin-bottom: 15px;
+      cursor: pointer; }
+      .infor-fix .mid li .main {
+        position: absolute;
+        left: -110px;
+        top: -10px;
+        display: none; }
+      .infor-fix .mid li .two {
+        position: absolute;
+        left: 20px;
+        top: -5px; }
+  .infor-fix .bot {
+    width: 56px;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px; }
+    .infor-fix .bot .esc {
+      margin-left: 6px;
+      margin-top: 10px; }
