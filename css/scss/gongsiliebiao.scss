@@ -21,8 +21,8 @@ input{
     left:$left;
 }
 .banner{
-    @include k-g(100%,846px)
-    @include bg(url($img-path+'list/4.jpg'))
+    @include k-g(100%,846px);
+    @include bg(url(../imgs/list/4.jpg));
     @include auto;
 }
 .zhezhao{
@@ -55,29 +55,38 @@ input{
    bottom: 0;
    left: 0;  
 }
-.banner1{
-    @include k-g(1200px,600px);
+.bannertu.banner_1{
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/banner-2.jpg));
+    @include left-right;
+    top:120px;
+}
+.bannertu.banner1{
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/banner-1.jpg));
+    @include left-right;
+    top:120px;
     background:$page-yellow;
-    @include absolute(120px,75px);
-    }
+    @include absolute(120px,80px)
+}
 .bannertu.banner2{
-    @include k-g(1200px,600px);
-    @include bg(url($img-path+'list/2.jpg'))
-    @include absolute(120px,75px)
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/2.jpg));
+    @include absolute(120px,80px)
 }
 .bannertu.banner3{
-    @include k-g(1200px,600px);
-   @include bg(url($img-path+'list/11.jpg'))
-    @include absolute(120px,75px)
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/11.jpg));
+    @include absolute(120px,80px)
 }
-.bannertu.banner4{
+.banner4{
     @include k-g(340px,165px);
-    @include bg(url($img-path+'list/123.jpg'))
+    @include bg(url(../imgs/list/123.jpg));
     @include absolute(320px,20px);
 }
 .banner6{
     @include k-g(70px,265px);
-    @include bg(url($img-path+'list/1.png'))
+    @include bg(url(../imgs/list/1.png));
     position: absolute;
     top:300px;
     right:0px;
@@ -115,7 +124,7 @@ input{
 }
 .yuan2{
     @include k-g(70px,65px);
-    @include bg(url($img-path+"list/tuo.png"));
+    @include bg(url(../imgs/list/tuo.png));
    margin-top:10px;
 }
 .yuan2 span{
