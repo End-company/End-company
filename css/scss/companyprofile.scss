@@ -4,7 +4,6 @@
 }
 .inner{
     width: $inner-width;
-//  overflow: hidden;
     @include center;
     z-index: 99;
 }
@@ -51,6 +50,7 @@
             box-shadow: 0 0 2px $shadow;
             left: -15px;
             top: -15px;
+            cursor: pointer;
             .col{
                 width: 90%;
                 height: 3px;
@@ -85,6 +85,7 @@
             box-shadow: 0 0 2px $shadow;
             left: -15px;
             top: -15px;
+            cursor: pointer;
             .col{
                 width: 90%;
                 height: 3px;
@@ -113,6 +114,11 @@
         text-align: center;
         position: relative;
         margin-top: 80px;
+        a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
        .row{
         width: 100px;
         height: 10px;
@@ -203,7 +209,7 @@
         height: 100px;
         .submit{
         height: 80px;
-        width: 300px;
+        width: 249px;
         @include center;
         float: left;
         position: absolute;
@@ -230,9 +236,7 @@
             background: #fff;
             margin-right: 8px;
         }
-        li:nth-of-type(1){
-            background: $yellow;
-        }
+
     }
     
 
@@ -279,7 +283,7 @@
 /*partbottom start*/
  .partbottom{
     width: $inner-width;
-    height: 630px;
+    height: 560px;
     background: #ebebeb;
     margin: 0 auto;
     margin-top: 300px;
@@ -335,6 +339,11 @@
         position: relative;
         margin-top: 80px;
         z-index: 100;
+        a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }        
        .row{
         width: 100px;
         height: 10px;
@@ -360,75 +369,17 @@
        }
     }   
 
-.ul{
-    height: 100px;
-    width: 100%;
-    float: left;
-    li:nth-of-type(1){
-        width: 30%;
-        height: 100px;
-        float: left;
-        margin-right: 5%;
-        
-    .btn{
-        background: url(../imgs/companyprofile/bg.png);
-        height: 50px;
-        width: 150px;
-        @include center;
-        outline: none;
-        color: #fff;
-        text-align: center;
-        position: absolute;
-    }
-
-    }
-    
-        li:nth-of-type(2){
-        width: 30%;
-        height: 100px;
-        float: left;
-        margin-right: 5%;
-    .btn{
-        background: url(../imgs/companyprofile/bg.png);
-        height: 50px;
-        outline: none;
-        color: #fff;
-        text-align: center;
-        width: 150px;
-        @include center;
-        position: absolute;
-    }
-
-    }
-    
-        li:nth-of-type(3){
-        width: 30%;
-        height: 100px;
-        float: left;
-    .btn{
-        background: url(../imgs/companyprofile/bg.png);
-        height: 50px;
-        outline: none;
-        color: #fff;
-        text-align: center;
-        width: 150px;
-        @include center;
-        position: absolute;
-    }
-
-    }
-
-}
-    .bottom{
+  .bottom{
         width: 100%;
         float: left;
         height: 100px;
         .submit{
         height: 80px;
-        width: 300px;
+        width: 249px;
         @include center;
         float: left;
         position: absolute;
+        bottom: -60px;
     }
     
     }
@@ -451,9 +402,6 @@
             float: left;
             margin-right: 8px;
             border: 3px solid #fff;
-        }
-        li:nth-of-type(1){
-            background: $yellow;
         }
     }
     
@@ -495,6 +443,27 @@
             font-size: 18px;
         }        
     }
-    
-
+.checked{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: #000;
+    opacity: 0.7;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 15px;
+    display: none;
+}
+.parttop .topone .checked{
+    display: block;
+} 
+.listone .tsli{
+    background:#f0c310;
+}
+.list .tsli{
+    background:#f0c310;
+}
 /*partbottom end*/
