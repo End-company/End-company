@@ -203,7 +203,6 @@
 }
 .bannertu.banner_1{
     @include k-g(1200px,636px);
-<<<<<<< HEAD
     @include bg(url(../imgs/list/banner-2.jpg));
     @include left-right;
     top:120px;
@@ -213,20 +212,19 @@
     @include bg(url(../imgs/list/banner-1.jpg));
     @include left-right;
     top:120px;
-=======
-    background:$page-yellow;
-    @include absolute(120px,80px)
->>>>>>> a3adfd4b721900f95b4c4fe5bac3ca9d05fee1fd
+   
 }
 .bannertu.banner2{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/2.jpg));
-    @include absolute(120px,80px)
+     @include left-right;
+    top:120px;
 }
 .bannertu.banner3{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/11.jpg));
-    @include absolute(120px,80px)
+    @include left-right;
+    top:120px;
 }
 .banner4{
     @include k-g(340px,165px);
@@ -373,6 +371,7 @@
     margin-top:50px;
     margin: auto;
     border:1px solid #eee;
+    border-top:none;
     @include bg(url(../imgs/list/5.png));
     background-position:25px 20px;
 }
@@ -435,6 +434,12 @@
     text-align: center;
     border-radius: 5%;
     
+}
+.leader a{
+    color:#fff;
+}
+.sign1{
+    border-top:1px solid #eee;
 }
 .sign2{
     background-position:25px -160px;
@@ -510,6 +515,26 @@
     float: left;
     padding-right:10px;
     box-sizing: border-box;
+    overflow: hidden;
+}
+.tuijian_1 .list1{
+    position:relative;
+}
+.tuijian_1 .list2{
+    position: absolute;
+    width:300px;
+    height:300px;
+    top:0;
+    left:0;
+//  height:0;
+    opacity: 0.8;
+    transition:all 0.5s linear;
+    transform: translateY(300px);
+}
+
+.tuijian_1:hover .list2{
+//  height:100%;
+    transform:translateY(0px);
 }
 .tuijian_1:nth-of-type(2) img{
     margin-top:6px;

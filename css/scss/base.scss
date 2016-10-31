@@ -50,13 +50,20 @@ $img-path:'../imgs/';
 	bottom:0;
 	margin:auto;
 }
+<<<<<<< HEAD
 img{
     border: none;
+=======
+>>>>>>> ed8f13ba48d414496726ab937eedd953a1a3f8c2
 @mixin yuan($w,$h){
     width: $w;
     height: $h;
     border-radius: 50%;
     border: 3px solid #fff;
     background:$green;
+<<<<<<< HEAD
 }}
+=======
+}
+>>>>>>> ed8f13ba48d414496726ab937eedd953a1a3f8c2
 

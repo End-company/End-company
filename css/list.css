@@ -17,10 +17,6 @@ input, select {
   border: none;
 }
 
-img {
-  border: none;
-}
-
 .zw_header {
   position: absolute;
   top: 0;
@@ -248,7 +244,8 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-  top: 120px; }
+  top: 120px;
+}
 
 .bannertu.banner1 {
   width: 1200px;
@@ -257,8 +254,10 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 120px;
-  left: 80px;
 }
 
 .bannertu.banner2 {
@@ -268,8 +267,10 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 120px;
-  left: 80px;
 }
 
 .bannertu.banner3 {
@@ -279,8 +280,10 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 120px;
-  left: 80px;
 }
 
 .banner4 {
@@ -473,6 +476,7 @@ img {
   margin-top: 50px;
   margin: auto;
   border: 1px solid #eee;
+  border-top: none;
   background: url(../imgs/list/5.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -549,6 +553,14 @@ img {
   margin-top: -30px;
   text-align: center;
   border-radius: 5%;
+}
+
+.leader a {
+  color: #fff;
+}
+
+.sign1 {
+  border-top: 1px solid #eee;
 }
 
 .sign2 {
@@ -641,6 +653,26 @@ img {
   float: left;
   padding-right: 10px;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.tuijian_1 .list1 {
+  position: relative;
+}
+
+.tuijian_1 .list2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  transition: all 0.5s linear;
+  transform: translateY(300px);
+}
+
+.tuijian_1:hover .list2 {
+  transform: translateY(0px);
 }
 
 .tuijian_1:nth-of-type(2) img {

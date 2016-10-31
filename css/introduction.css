@@ -15,9 +15,16 @@ input, select {
   border: none; }
 
 body {
-  background: url(../imgs/jiejian/121.png);
   width: 100%;
   height: 4800px; }
+
+.tupian {
+  width: 100%;
+  height: 100%; }
+
+#tupian {
+  width: 100%;
+  height: 100%; }
 
 .hezi {
   width: 100%;
