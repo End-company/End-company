@@ -14,11 +14,157 @@ a {
 input, select {
   border: none; }
 
-.gl {
+input {
+  outline: none; }
+
+.banner {
   width: 100%;
-  height: 834px;
+  height: 846px;
+  background: url(../imgs/list/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0 auto;
-  background: silver; }
+  position: relative; }
+
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: #2b5f6f;
+  opacity: 0.9; }
+
+.lv {
+  width: 225px;
+  height: 250px;
+  background: #177867;
+  position: absolute;
+  top: 270px;
+  left: 910px;
+  opacity: 0.6; }
+
+.yellow1 {
+  width: 200px;
+  height: 200px;
+  background: #edd325;
+  position: absolute;
+  top: 300px;
+  left: 45px;
+  opacity: 0.6; }
+
+.yellow2 {
+  width: 50px;
+  height: 50px;
+  background: #edd325;
+  position: absolute;
+  top: 270px;
+  left: 10px;
+  opacity: 0.6; }
+
+.bai {
+  width: 100%;
+  height: 200px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.banner1 {
+  width: 1200px;
+  height: 600px;
+  background: #edd325;
+  position: absolute;
+  top: 120px;
+  left: 75px; }
+
+.bannertu.banner2 {
+  width: 1200px;
+  height: 600px;
+  background: url(../imgs/list/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 120px;
+  left: 75px; }
+
+.bannertu.banner3 {
+  width: 1200px;
+  height: 600px;
+  background: url(../imgs/list/11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 120px;
+  left: 75px; }
+
+.bannertu.banner4 {
+  width: 340px;
+  height: 165px;
+  background: url(../imgs/list/123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 320px;
+  left: 20px; }
+
+.banner6 {
+  width: 70px;
+  height: 265px;
+  background: url(../imgs/list/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 300px;
+  right: 0px; }
+
+.banner6_1 {
+  width: 100%;
+  height: 50px;
+  padding: 0 30px;
+  box-sizing: border-box; }
+
+.banner6_1 img {
+  vertical-align: middle;
+  margin: 0 10px; }
+
+.yuan {
+  width: 50px;
+  height: 180px;
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box; }
+
+.yuan1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 15px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  cursor: pointer; }
+
+.yuan span {
+  color: white;
+  margin-left: 25px; }
+
+.yuan2 {
+  width: 70px;
+  height: 65px;
+  background: url(../imgs/list/tuo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px; }
+
+.yuan2 span {
+  display: block;
+  width: 25px;
+  height: 60px;
+  float: left;
+  color: #edd325;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer; }
 
 /*快速匹配*/
 .pipei {
@@ -30,6 +176,7 @@ input, select {
   width: 100%;
   height: 200px;
   margin: 0 auto;
+  margin-top: -300px;
   position: relative; }
 
 .ppl {
