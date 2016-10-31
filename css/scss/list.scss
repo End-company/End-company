@@ -204,20 +204,17 @@
 .banner1{
     @include k-g(1200px,636px);
     background:$page-yellow;
-    @include left-right;
-    top:120px;
+    @include absolute(120px,80px)
 }
 .bannertu.banner2{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/2.jpg));
-    @include left-right;
-   top:120px;
+    @include absolute(120px,80px)
 }
 .bannertu.banner3{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/11.jpg));
-    @include left-right;
-    top:120px;
+    @include absolute(120px,80px)
 }
 .bannertu.banner4{
     @include k-g(340px,165px);
