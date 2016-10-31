@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$(".infor-fix").css({right:"-50px"})
+	$(".infor-fix").mouseover(function(){
+		$(".infor-fix").animate({right:"0"}).finish();
+	})
+	$(".infor-fix").mouseout(function(){
+		$(".infor-fix").animate({right:"-50px"})
+	})
+})
