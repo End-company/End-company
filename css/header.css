@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+body {
+  font-family: "微软雅黑",sans-serif;
+  font-size: 12px; }
+
+
+.header {
+  width: 100%;
+  height: 144px;
+  background: rgba(7, 62, 93, 0.7); }
+  .header .header-inner {
+    margin: 0 auto;
+    width: 1300px;
+    height: 100%; }
+    .header .header-inner .hd-left {
+      float: left;
+      height: 100%;
+      padding-right: 64px;
+      padding-left: 24px; }
+      .header .header-inner .hd-left img {
+        width: 80px; }
+    .header .header-inner .header-nav {
+      float: left;
+      height: 100%;
+      padding-top: 42px; }
+      .header .header-inner .header-nav .nav-list {
+        float: left;
+        width: auto;
+        padding-right: 63px; }
+        .header .header-inner .header-nav .nav-list .words {
+          font-size: 18px;
+          color: #bdbebe;
+          font-family: sans-serif; }
+        .header .header-inner .header-nav .nav-list .head-line1 {
+          background: url(../imgs/header/hd-line1.png) no-repeat;
+          background-size: contain;
+          height: 1px;
+          width: 65px;
+          margin: 6px 0; }
+        .header .header-inner .header-nav .nav-list .list {
+          font-size: 16px;
+          color: #fff;
+          font-family: "方正准圆繁体",sans-serif; }
+        .header .header-inner .header-nav .nav-list .head-line2 {
+          background: url(../imgs/header/hd-line2.png) no-repeat;
+          height: 6px;
+          width: 42px;
+          margin: 6px 0; }
+        .header .header-inner .header-nav .nav-list .head-line3 {
+          width: 1px;
+          height: 39px;
+          position: absolute;
+          right: 24px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          border: 1px dashed #bdbebe; }
+        .header .header-inner .header-nav .nav-list .nav-circle {
+          width: 22px;
+          height: 22px;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          position: absolute;
+          top: 65px;
+          width: 20px;
+          height: 20px;
+          background: #21a26b;
+          border: none;
+          left: 73px;
+          top: 28px; }
+    .header .header-inner .hd-right {
+      float: left;
+      height: 100%;
+      padding-top: 62px; }
+      .header .header-inner .hd-right input {
+        width: 210px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0);
+        border: 2px solid #baced6;
+        border-radius: 25px;
+        padding-left: 30px; }
+      .header .header-inner .hd-right .input2 {
+        border: none; }
+      .header .header-inner .hd-right .hd-s-circle {
+        position: absolute;
+        left: 8px;
+        top: 75px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #ffd015; }
+      .header .header-inner .hd-right .hd-r-line {
+        height: 14px;
+        width: 1px;
+        background: #bbb;
+        position: absolute;
+        left: 22px;
+        top: 70px; }
+      .header .header-inner .hd-right .btn-sou {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 62px; }
+        .header .header-inner .hd-right .btn-sou img {
+          width: 58px; }
+      .header .header-inner .hd-right .btn-sou2 {
+        right: -35px; }
+      .header .header-inner .hd-right .hd-circle1 {
+        width: 22px;
+        height: 22px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 65px;
+        background: #f0c310;
+        left: 230px; }
+      .header .header-inner .hd-right .hd-circle2 {
+        width: 22px;
+        height: 22px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 65px;
+        background: #1bbf9d;
+        left: 270px; }
+      .header .header-inner .hd-right .tishi {
+        height: 100px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+        position: absolute;
+        left: 30px;
+        top: 95px;
+        z-index: 9999;
+        padding: 5px 10px;
+        color: #333;
+        display: none; }
+        .header .header-inner .hd-right .tishi .sanjiao {
+          position: absolute;
+          left: 15px;
+          top: -14px;
+          width: 0;
+          height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-bottom: 14px solid rgba(255, 255, 255, 0.7); }
+        .header .header-inner .hd-right .tishi .radio {
+          display: inline-block;
+          font-size: 14px;
+          color: #aaa;
+          width: 12px;
+          vertical-align: middle; }
+        .header .header-inner .hd-right .tishi .line {
+          width: 150px;
+          height: 4px;
+          background: url("../imgs/header/hd-tishi.png");
+          background-size: cover;
+          background-position: center;
+          margin-top: 4px; }
+
+.header3 {
+  background: #155c86; }
+
+.header4 {
+  background: rgba(21, 79, 101, 0.5); }
