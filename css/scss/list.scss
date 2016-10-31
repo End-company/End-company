@@ -203,7 +203,6 @@
 }
 .bannertu.banner_1{
     @include k-g(1200px,636px);
-<<<<<<< HEAD
     @include bg(url(../imgs/list/banner-2.jpg));
     @include left-right;
     top:120px;
@@ -213,20 +212,19 @@
     @include bg(url(../imgs/list/banner-1.jpg));
     @include left-right;
     top:120px;
-=======
-    background:$page-yellow;
-    @include absolute(120px,80px)
->>>>>>> a3adfd4b721900f95b4c4fe5bac3ca9d05fee1fd
+   
 }
 .bannertu.banner2{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/2.jpg));
-    @include absolute(120px,80px)
+     @include left-right;
+    top:120px;
 }
 .bannertu.banner3{
     @include k-g(1200px,636px);
     @include bg(url(../imgs/list/11.jpg));
-    @include absolute(120px,80px)
+    @include left-right;
+    top:120px;
 }
 .banner4{
     @include k-g(340px,165px);
