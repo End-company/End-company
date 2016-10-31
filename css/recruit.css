@@ -14,56 +14,66 @@ a {
 input, select {
   border: none; }
 
-.header1 {
-  width: 100%;
-  height: 100px;
-  background: #145880; }
-
-.headcon {
-  width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-  /*background: #2D2D2D;*/
-  padding: 10px 10px;
-  box-sizing: border-box; }
-
-.h_left {
+.header1{
+ width:100%;
+ height:auto;
+ background:#145880;
+ position: absolute;
+ top:0;
+ z-index: 999;
+}
+.headcon{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background: #2D2D2D;*/
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.h_left{
   float: left;
   height: 80px;
-  width: 100px; }
-
-.h_left img {
-  height: 80px; }
-
-.h_right {
+  width: 100px;
+  
+}
+.h_left img{
+  height: 80px;
+   
+}
+.xq_right{
   float: right;
   height: 80px;
   width: 300px;
   padding: 23px auto;
-  position: relative; }
-
-.h_right .search {
+  position: relative;
+}
+.xq_right .search{
   position: absolute;
   right: 0;
   top: 20px;
   width: 310px;
   height: 54px;
   border: none;
-  background-image: url(../imgs/zhaopin/ss_03.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-
-.h_right input#ss {
+}
+.xq_right .down{
+  display: none;
+  position: absolute;
+  right: 25px;
+  top: 40px;
+  z-index: 9999;
+  opacity: 0.9;
+}
+.xq_right input#ss{
   position: absolute;
   right: 80px;
   top: 13px;
   width: 200px;
   height: 28px;
   border: none;
-  background: #2d6a8d; }
-
-.h_right input#btn {
+  background: #145880;
+  outline: none;  
+}
+.xq_right input#btn{
   position: absolute;
   right: 8px;
   top: 14px;
@@ -74,9 +84,10 @@ input, select {
   background-size: 80% auto;
   background-repeat: no-repeat;
   background-size: 65px 26px;
-  cursor: pointer; }
-
-.h_right .point {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.xq_right .point{
   position: absolute;
   left: 8px;
   top: 22px;
@@ -84,63 +95,68 @@ input, select {
   border-radius: 50%;
   width: 10px;
   background: #F2C119;
-  display: inline-block; }
-
-.h_mid {
+  display: inline-block;
+}
+.h_mid{
   margin-top: 16px;
   height: 70px;
   width: 700px;
   display: inline-block;
-  position: relative; }
+  position: relative;
+}
 
-.h_mid > div {
+.h_mid>div{
   /*height: 70px;*/
   display: inline-block;
   box-sizing: border-box;
-  width: 24%;
+  width:24%;
   height: auto;
-  border-right: 1px dashed #a7a5a5; }
-
-.h_mid span {
+  border-right: 1px dashed #a7a5a5;
+}
+.h_mid span{
   font-size: 14px;
   font-family: "微软雅黑";
   color: #a7a5a5;
-  margin-bottom: 5px; }
-
-.h_mid ul {
+  margin-bottom: 5px;
+}
+.h_mid ul{
   position: relative;
   height: 2px;
   width: 60px;
   background: #707577;
-  margin: 5px 0; }
-
+  margin: 5px 0;
+}
 .h_mid ul li {
   position: absolute;
-  top: 0;
+  top:0;
   right: 0;
   height: 100%;
   width: 15%;
   display: inline-block;
-  background: #f2c119; }
-
-.h_mid .h4 ul li {
+  background: #f2c119;
+}
+.h_mid .h4 ul li{
   position: absolute;
-  top: 0;
-  left: 0; }
-
-.h_mid a {
+  top:0;
+  left: 0;
+}
+.h_mid a{
   font-size: 18px;
   font-family: "方正准圆繁体";
-  color: #fff; }
-
-.h_mid > div.h1 {
+  color: #fff;  
+}
+.h_mid>div.h1{
   height: 70px;
-  position: relative; }
-
-.h_mid > div.h1 img {
+  position: relative;
+}
+.h_mid>div.h1 img{
   position: absolute;
   bottom: 3px;
-  left: 3px; }
+  left: 3px;
+}
+.xian{
+  display: block;
+}
 
 #zp-top {
   width: 100%;

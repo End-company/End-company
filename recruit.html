@@ -48,10 +48,11 @@
           
         </div>
       </div>
-      <div class="h_right">
+      <div class="xq_right">
         <div class="search">
           
           <input type="text" id="ss"/>
+          <div class="down"><img src="imgs/zhaopin/down2.png"/></div>
           <div class="point"></div>
             <input type="button" id="btn"/>
         </div>  
@@ -349,6 +350,18 @@
   </div>    
 </body>
 </html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+       $(".xq_right #ss").on("mouseover",function(){
+          $(".xq_right .down").css("display","block");
+       })
+       $(".xq_right #ss").on("mouseout",function(){
+          $(".xq_right .down").css("display","none");
+       })
+       
+   }) 
+</script>
 <script src="js/jquery.js"></script>  
 <script src="js/jquery.min.js"></script>
 <script src="js/information.js"></script>
