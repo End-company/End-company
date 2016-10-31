@@ -51,8 +51,6 @@ $img-path:'../imgs/';
 	margin:auto;
 }
 
-img{
-    border: none;
 @mixin yuan($w,$h){
     width: $w;
     height: $h;
@@ -60,4 +58,4 @@ img{
     border: 3px solid #fff;
     background:$green;
 }
-}
+
