@@ -1,0 +1,359 @@
+@import 'base.scss';
+@mixin k-g($width,$height){
+    width:$width;
+    height:$height;
+}
+@mixin auto{
+    margin:0 auto;
+    position: relative;
+}
+@mixin bg($bg){
+    background: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin absolute($top,$left){
+    position: absolute;
+    top:$top;
+    left:$left;
+}
+.banner{
+    @include k-g(100%,846px);
+    @include bg(url(../imgs/list/4.jpg));
+    @include auto;
+}
+.zhezhao{
+   @include k-g(100%,100%);
+   background:#2b5f6f;
+   opacity: 0.9; 
+}
+.lv{
+    @include k-g(225px,250px);
+    background:#177867;
+    @include absolute(270px,910px);
+    opacity: 0.6;
+}
+.yellow1{
+    @include k-g(200px,200px);
+    background:$page-yellow;
+    @include absolute(300px,45px);
+    opacity: 0.6;
+}
+.yellow2{
+    @include k-g(50px,50px);
+    background:$page-yellow;
+    @include absolute(270px,10px);
+    opacity: 0.6;
+}
+.bai{
+   @include k-g(100%,200px); 
+   background:white;
+   position: absolute;
+   bottom: 0;
+   left: 0;  
+}
+.banner1{
+    @include k-g(1200px,636px);
+    background:$page-yellow;
+    @include absolute(120px,80px)
+}
+.bannertu.banner2{
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/2.jpg));
+    @include absolute(120px,80px)
+}
+.bannertu.banner3{
+    @include k-g(1200px,636px);
+    @include bg(url(../imgs/list/11.jpg));
+    @include absolute(120px,80px)
+}
+.bannertu.banner4{
+    @include k-g(340px,165px);
+    @include bg(url(../imgs/list/123.jpg));
+    @include absolute(320px,20px);
+}
+.banner6{
+    @include k-g(70px,265px);
+    @include bg(url(../imgs/list/1.png));
+    position: absolute;
+    top:300px;
+    right:0px;
+}
+.banner5{
+    @include k-g(1000px,auto);
+    position: absolute;
+    left:0;
+    bottom:20px;
+    @include k-g(1000px,250px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:0 auto;
+    @include bg(url(../imgs/list/111.png));
+    background-size: 100%;
+   
+}
+.banner5_2{
+    @include k-g(100%,125px);
+}
+.banner5_2 .banner5_1{
+    @include k-g(33.33%,125px); 
+    padding-top:30px;
+    padding-left:20px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.banner5_3{
+    @include k-g(50%,60px);
+    float: left;
+    color:#666;  
+}
+.banner5_3 span:nth-of-type(1){
+    color:#40D1F1;
+}
+.banner6_1{
+     @include k-g(100%,50px);
+     padding:0 30px;
+     box-sizing: border-box;
+}
+.banner6_1 img{
+    vertical-align: middle;
+    margin:0 10px;
+}
+.yuan{
+    @include k-g(50px,180px);
+    text-align: right;
+    padding-top:10px;
+    padding-left:10px;
+    box-sizing: border-box;
+   
+}
+.yuan1{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background:white;
+    margin-top:15px;
+    border:2px solid white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.yuan span{
+    color:white;
+    margin-left:25px;
+}
+.yuan2{
+    @include k-g(70px,65px);
+    @include bg(url(../imgs/list/tuo.png));
+   margin-top:10px;
+}
+.yuan2 span{
+    display: block;
+    @include k-g(25px,60px);
+    float: left;
+    color:$page-yellow;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+/* banner*/
+#ss{
+    @include k-g(1200px,60px);
+    @include auto;
+}
+#ss input{
+    @include k-g(80%,100%);
+    border:1px solid #eee;
+    box-sizing: border-box;
+    color:#EBEBEB;
+    line-height: 60px;
+}
+#ss a{
+   display: block;
+   @include k-g(15%,100%);
+    float:right;
+    color:white;
+    background:#40d1f1;
+    line-height: 60px;
+    text-align: center;
+}
+.diqu{
+   @include k-g(1200px,60px);
+   @include auto; 
+   margin-top:50px;
+}
+.diqu1{
+    @include k-g(226px,30px);
+    float:left;
+    border:1px solid #eee;
+    margin-right:14px;
+    color:#333;
+    line-height: 30px;
+    font-size: 12px;
+}
+.sanjiao{
+    overflow: hidden;
+    right:0px;
+    bottom:0px;   
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #0180cf;
+    border-bottom: 5px solid #0180cf;
+    border-left: 5px solid #fff;
+}
+.sign{
+    @include k-g($inner-width,170px);
+    margin-top:50px;
+    margin: auto;
+    border:1px solid #eee;
+    border-bottom:none;
+    @include bg(url(../imgs/list/5.png));
+    background-position:25px 20px;
+}
+.signLeft{
+    @include k-g(599px,100%);
+    float:left;
+    border-right:1px dashed #eee;
+    height:100px;
+    margin-top:40px;
+    margin-bottom:40x;
+}
+.signLeft h4{
+    color:#333;
+    margin-top:20px;
+    margin-left:200px;
+}
+.signLeft h5{
+    color:#333;
+    margin-top:10px;
+    margin-left:200px;
+}
+.signLeft h5 span{
+    color:#f1cd3e;
+}
+.signLeft h6{
+    color:#333;
+    margin-top:10px;
+    margin-left:200px;
+}
+.signRight{
+    @include k-g(599px,100%);
+    float:left;
+}
+.signRight h4{
+    color:#333;
+    margin-top:50px;
+    margin-left:30px;
+}
+.signRight h5{
+    color:#333;
+    margin-top:10px;
+    margin-left:30px;
+}
+.signRight h6{
+    display: inline-block;
+    color:#333;
+    margin-top:10px;
+    margin-left:30px;
+    border:1px solid #eee;
+    float:left;
+}
+.leader{
+    @include k-g(148px,46px);
+    background: #40d1f1;
+    color:#fff;
+    font-size: 18px;
+    line-height:46px;
+    margin-left:400px;
+    margin-top:-30px;
+    text-align: center;
+    border-radius: 5%;
+    
+}
+.sign2{
+    background-position:25px -160px;
+}
+.sign3{
+    background-position:25px -336px;
+}
+.sign4{
+    background-position:25px -510px;
+}
+.sign5{
+    background-position:25px -510px;
+    border-bottom:1px solid #eee;
+}
+.page{
+    @include k-g($inner-width,177px);
+    margin:0 auto;
+    border:1px solid #eee;
+    border-top:none;
+}
+.page .page1{
+    @include k-g(800px,100px);
+    margin-left:400px;
+}
+.page a{
+    color:#666;
+    font-size:14px;
+    float: left;
+    display: block;
+    margin-top:50px;
+    margin-left:10px;
+}
+.page .pages{
+    @include k-g(20px,20px);
+    line-height: 20px;
+    text-align: center;
+    border:1px solid #eee;
+}
+.page .page1 .span{
+    display: inline-block;
+    vertical-align: middle;
+    @include k-g(30px,20px);
+    border:1px solid #eee;
+    margin:0 5px;
+}
+
+
+/* qiyetuijian*/
+#tuijian{
+    
+    @include k-g(1200px,40px);
+    margin:30px auto;
+    padding:0 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+#tuijian img{
+    vertical-align: middle;
+    margin-right:15px;
+}
+#xz{
+    margin-top:10px;
+    float: right;
+}
+.tuijian{
+    width:1200px;
+    height:300px;
+    @include auto;
+}
+.tuijian_1{
+    width:25%;
+    height:100%;
+    float: left;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+.tuijian_1:nth-of-type(2) img{
+    margin-top:6px;
+}
+.tuijian_1:nth-of-type(4){
+    padding:0;
+}
+

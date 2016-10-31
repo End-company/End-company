@@ -6,8 +6,12 @@
   font-family: "微软雅黑","宋体","sans-serif";
   position: relative;
   box-sizing: border-box;
+<<<<<<< HEAD
   list-style: none;
-  background: #fff; }
+   }
+=======
+  list-style: none; }
+>>>>>>> a99c612a186bacaaef97d838a2f0d87a9ced3d88
 
 a {
   text-decoration: none; }
