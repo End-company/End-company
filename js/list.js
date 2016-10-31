@@ -8,7 +8,7 @@ $(document).ready(function(){
 		if(now>=$(".bannertu").length){
 			now=0;
 		}
-		$(".bannertu").css("opacity","0").eq(now).css("opacity","1");
+		$(".bannertu").css("opacity","0").eq(now).animate({"opacity":1},"slow");
 		$(".yuan1").css("background","white").eq(now).css("background","none")
 	}
 	function banner1(){
@@ -16,12 +16,12 @@ $(document).ready(function(){
 		if(now<=0){
 			now=$(".bannertu").length;
 		}
-		$(".bannertu").css("opacity","0").eq(now).css("opacity","1");
+		$(".bannertu").css("opacity","0").eq(now).animate({"opacity":1},"slow");
 		$(".yuan1").css("background","white").eq(now).css("background","none")
 	}
 	$(".yuan1").click(function(){
 		var index=$(this).index();
-		$(".bannertu").css("opacity","0").eq(index).css("opacity","1");
+		$(".bannertu").css("opacity","0").eq(index).animate({"opacity":1},"slow");
 		$(".yuan1").css("background","white").eq(index).css("background","none")
 		now=index;
 	})
