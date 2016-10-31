@@ -17,10 +17,6 @@ input, select {
   border: none;
 }
 
-img {
-  border: none;
-}
-
 .zw_header {
   position: absolute;
   top: 0;
@@ -238,13 +234,30 @@ img {
   left: 0;
 }
 
-.banner1 {
+.bannertu.banner_1 {
   width: 1200px;
   height: 636px;
-  background: #edd325;
+  background: url(../imgs/list/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 120px;
-  left: 80px;
+}
+
+.bannertu.banner1 {
+  width: 1200px;
+  height: 636px;
+  background: url(../imgs/list/banner-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 120px;
 }
 
 .bannertu.banner2 {
@@ -254,8 +267,10 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 120px;
-  left: 80px;
 }
 
 .bannertu.banner3 {
@@ -265,11 +280,13 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
   top: 120px;
-  left: 80px;
 }
 
-.bannertu.banner4 {
+.banner4 {
   width: 340px;
   height: 165px;
   background: url(../imgs/list/123.jpg);
