@@ -1,4 +1,4 @@
-@import'base';
+@import 'base';
 input{
     outline: none;
 }
@@ -58,8 +58,8 @@ input{
 .banner1{
     @include k-g(1200px,600px);
     background:$page-yellow;
-    @include absolute(120px,75px)
-}
+    @include absolute(120px,75px);
+    }
 .bannertu.banner2{
     @include k-g(1200px,600px);
     @include bg(url(../imgs/list/2.jpg))
