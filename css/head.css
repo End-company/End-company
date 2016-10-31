@@ -56,7 +56,8 @@ img{
 	width: 200px;
 	height: 28px;
 	border: none;
-	background: #2d6a8d;	
+	background: #2d6a8d;
+	outline: none;	
 }
 .h_right input#btn{
 	position: absolute;
@@ -315,7 +316,8 @@ img{
 	width: 200px;
 	height: 26px;
 	border: none;
-	background: #2d6a8d;	
+	background: #2d6a8d;
+	outline: none;		
 }
 
 .zw_right .point{
