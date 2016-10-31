@@ -18,7 +18,7 @@ $green:#6cce24;
 $black:#575757;
 $page-gray:#abaaa;
 $blue:#10c8f0;
-$yellow:#ff6a91;
+$yellow:#f0c310;
 $pink:#ff6a91;
 $page-green:#45645a;
 $page-black:#575757;
@@ -45,7 +45,6 @@ $img-path:'../imgs/';
 	margin:auto;
 }
 @mixin center{
-	position:absolute;
 	left:0;
 	right:0;
 	top:0;
