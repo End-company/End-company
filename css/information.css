@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD:css/list.css
-=======
->>>>>>> a99c612a186bacaaef97d838a2f0d87a9ced3d88
->>>>>>> 89a42cc2856dad2d46b40275801a7fec4e2008fd
+
 @charset "UTF-8";
 /*去掉标签的默认样式*/
 * {
@@ -14,13 +8,9 @@
   position: relative;
   box-sizing: border-box;
   list-style: none;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  background: #fff;
-=======
->>>>>>> a99c612a186bacaaef97d838a2f0d87a9ced3d88
->>>>>>> 89a42cc2856dad2d46b40275801a7fec4e2008fd
+
+  background: #ff;
+
 }
 
 a {
@@ -31,7 +21,7 @@ input, select {
   border: none;
 }
 
-<<<<<<< HEAD
+
 img {
   border: none;
 }
@@ -523,8 +513,7 @@ img {
   display: block;
   width: 190px;
   height: 55px;
-=======
-<<<<<<< HEAD
+
 .banner {
   width: 100%;
   height: 846px;
@@ -579,11 +568,10 @@ img {
   position: absolute;
   bottom: 0;
   left: 0;
-=======
+
 div {
   width: 100px;
->>>>>>> c4ce3e900287c5bd297749e558cade784e2da019:css/information.css
-=======
+
 #infor-comment {
   width: 100%;
   height: 894px;
@@ -593,12 +581,12 @@ div {
 #infor-comment .comment-con {
   width: 1200px;
   height: 670px;
->>>>>>> 89a42cc2856dad2d46b40275801a7fec4e2008fd
+
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
-<<<<<<< HEAD
+
 }
 
 .infor-fix {
@@ -662,7 +650,7 @@ div {
 .infor-fix .bot .esc {
   margin-left: 6px;
   margin-top: 10px;
-=======
+
   margin-top: 90px;
   background: #f4f4f4;
 }
@@ -686,6 +674,5 @@ div {
   position: absolute;
   height: 0;
   left: 0;
->>>>>>> a99c612a186bacaaef97d838a2f0d87a9ced3d88
->>>>>>> 89a42cc2856dad2d46b40275801a7fec4e2008fd
+
 }
